@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/gdbinit/symbols
+source /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/gdbinit/connect

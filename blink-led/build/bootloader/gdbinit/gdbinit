@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/embedded/blink-led/build/bootloader/gdbinit/symbols
+source /home/jona/esp-idf/embedded/blink-led/build/bootloader/gdbinit/connect

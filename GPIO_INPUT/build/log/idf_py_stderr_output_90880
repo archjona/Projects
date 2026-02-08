@@ -1,0 +1,43 @@
+Command: make -j 14 all
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:6:13: error: expected declaration specifiers or '...' before numeric constant
+    6 | #define LED 4
+      |             ^
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:9:16: note: in expansion of macro 'LED'
+    9 | gpio_reset_pin(LED);
+      |                ^~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:7:16: error: expected declaration specifiers or '...' before numeric constant
+    7 | #define Button 5
+      |                ^
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:10:16: note: in expansion of macro 'Button'
+   10 | gpio_reset_pin(Button);
+      |                ^~~~~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:6:13: error: expected declaration specifiers or '...' before numeric constant
+    6 | #define LED 4
+      |             ^
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:11:20: note: in expansion of macro 'LED'
+   11 | gpio_set_direction(LED, GPIO_MODE_OUTPUT);
+      |                    ^~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:11:25: error: expected declaration specifiers or '...' before 'GPIO_MODE_OUTPUT'
+   11 | gpio_set_direction(LED, GPIO_MODE_OUTPUT);
+      |                         ^~~~~~~~~~~~~~~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:7:16: error: expected declaration specifiers or '...' before numeric constant
+    7 | #define Button 5
+      |                ^
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:12:20: note: in expansion of macro 'Button'
+   12 | gpio_set_pull_mode(Button, GPIO_PULLUP_ONLY);
+      |                    ^~~~~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:12:28: error: expected declaration specifiers or '...' before 'GPIO_PULLUP_ONLY'
+   12 | gpio_set_pull_mode(Button, GPIO_PULLUP_ONLY);
+      |                            ^~~~~~~~~~~~~~~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:7:16: error: expected declaration specifiers or '...' before numeric constant
+    7 | #define Button 5
+      |                ^
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:13:20: note: in expansion of macro 'Button'
+   13 | gpio_set_direction(Button, GPIO_MODE_INPUT);
+      |                    ^~~~~~
+/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c:13:28: error: expected declaration specifiers or '...' before 'GPIO_MODE_INPUT'
+   13 | gpio_set_direction(Button, GPIO_MODE_INPUT);
+      |                            ^~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INPUT.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:8889: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
