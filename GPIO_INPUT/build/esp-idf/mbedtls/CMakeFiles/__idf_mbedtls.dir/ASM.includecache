@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/jona/esp-idf/embedded/GPIO_INPUT/build/x509_crt_bundle.S
+/home/jona/esp-idf/Projects/GPIO_INPUT/build/x509_crt_bundle.S
 

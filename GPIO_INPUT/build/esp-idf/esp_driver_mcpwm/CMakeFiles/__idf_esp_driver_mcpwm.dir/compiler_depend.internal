@@ -33,6 +33,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cap.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -139,7 +140,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cap.c.o
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c
@@ -173,6 +173,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -267,7 +268,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c
@@ -301,6 +301,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -398,7 +399,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.o
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c
@@ -432,6 +432,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -536,7 +537,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c
@@ -570,6 +570,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -675,7 +676,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.o
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c
@@ -709,6 +709,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -803,7 +804,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c
@@ -837,6 +837,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -941,7 +942,6 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c.obj
  /home/jona/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c
@@ -975,6 +975,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1070,5 +1071,4 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

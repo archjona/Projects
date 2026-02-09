@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.elf
+    add-symbol-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.elf
+file /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.elf

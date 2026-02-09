@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for lib.
 
@@ -81,10 +81,10 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build: lib
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/mbedtls/mbedtls/library /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake "--color=$(COLOR)" lib
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/mbedtls/mbedtls/library /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake "--color=$(COLOR)" lib
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/depend
 

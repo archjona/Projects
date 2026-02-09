@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/esp-idf/soc//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/esp-idf/soc//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_soc: esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 
 # fast build rule for target.
 __idf_soc/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
 .PHONY : __idf_soc/fast
 
 dport_access_common.obj: dport_access_common.c.obj
@@ -135,7 +135,7 @@ dport_access_common.obj: dport_access_common.c.obj
 
 # target to build an object file
 dport_access_common.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
 .PHONY : dport_access_common.c.obj
 
 dport_access_common.i: dport_access_common.c.i
@@ -143,7 +143,7 @@ dport_access_common.i: dport_access_common.c.i
 
 # target to preprocess a source file
 dport_access_common.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.i
 .PHONY : dport_access_common.c.i
 
 dport_access_common.s: dport_access_common.c.s
@@ -151,7 +151,7 @@ dport_access_common.s: dport_access_common.c.s
 
 # target to generate assembly for a file
 dport_access_common.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.s
 .PHONY : dport_access_common.c.s
 
 esp32/dport_access.obj: esp32/dport_access.c.obj
@@ -159,7 +159,7 @@ esp32/dport_access.obj: esp32/dport_access.c.obj
 
 # target to build an object file
 esp32/dport_access.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
 .PHONY : esp32/dport_access.c.obj
 
 esp32/dport_access.i: esp32/dport_access.c.i
@@ -167,7 +167,7 @@ esp32/dport_access.i: esp32/dport_access.c.i
 
 # target to preprocess a source file
 esp32/dport_access.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.i
 .PHONY : esp32/dport_access.c.i
 
 esp32/dport_access.s: esp32/dport_access.c.s
@@ -175,7 +175,7 @@ esp32/dport_access.s: esp32/dport_access.c.s
 
 # target to generate assembly for a file
 esp32/dport_access.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s
 .PHONY : esp32/dport_access.c.s
 
 esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
@@ -183,7 +183,7 @@ esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
 
 # target to build an object file
 esp32/gpio_periph.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
 .PHONY : esp32/gpio_periph.c.obj
 
 esp32/gpio_periph.i: esp32/gpio_periph.c.i
@@ -191,7 +191,7 @@ esp32/gpio_periph.i: esp32/gpio_periph.c.i
 
 # target to preprocess a source file
 esp32/gpio_periph.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i
 .PHONY : esp32/gpio_periph.c.i
 
 esp32/gpio_periph.s: esp32/gpio_periph.c.s
@@ -199,7 +199,7 @@ esp32/gpio_periph.s: esp32/gpio_periph.c.s
 
 # target to generate assembly for a file
 esp32/gpio_periph.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s
 .PHONY : esp32/gpio_periph.c.s
 
 esp32/interrupts.obj: esp32/interrupts.c.obj
@@ -207,7 +207,7 @@ esp32/interrupts.obj: esp32/interrupts.c.obj
 
 # target to build an object file
 esp32/interrupts.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
 .PHONY : esp32/interrupts.c.obj
 
 esp32/interrupts.i: esp32/interrupts.c.i
@@ -215,7 +215,7 @@ esp32/interrupts.i: esp32/interrupts.c.i
 
 # target to preprocess a source file
 esp32/interrupts.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i
 .PHONY : esp32/interrupts.c.i
 
 esp32/interrupts.s: esp32/interrupts.c.s
@@ -223,7 +223,7 @@ esp32/interrupts.s: esp32/interrupts.c.s
 
 # target to generate assembly for a file
 esp32/interrupts.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s
 .PHONY : esp32/interrupts.c.s
 
 esp32/mpi_periph.obj: esp32/mpi_periph.c.obj
@@ -231,7 +231,7 @@ esp32/mpi_periph.obj: esp32/mpi_periph.c.obj
 
 # target to build an object file
 esp32/mpi_periph.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
 .PHONY : esp32/mpi_periph.c.obj
 
 esp32/mpi_periph.i: esp32/mpi_periph.c.i
@@ -239,7 +239,7 @@ esp32/mpi_periph.i: esp32/mpi_periph.c.i
 
 # target to preprocess a source file
 esp32/mpi_periph.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i
 .PHONY : esp32/mpi_periph.c.i
 
 esp32/mpi_periph.s: esp32/mpi_periph.c.s
@@ -247,7 +247,7 @@ esp32/mpi_periph.s: esp32/mpi_periph.c.s
 
 # target to generate assembly for a file
 esp32/mpi_periph.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s
 .PHONY : esp32/mpi_periph.c.s
 
 esp32/power_supply_periph.obj: esp32/power_supply_periph.c.obj
@@ -255,7 +255,7 @@ esp32/power_supply_periph.obj: esp32/power_supply_periph.c.obj
 
 # target to build an object file
 esp32/power_supply_periph.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj
 .PHONY : esp32/power_supply_periph.c.obj
 
 esp32/power_supply_periph.i: esp32/power_supply_periph.c.i
@@ -263,7 +263,7 @@ esp32/power_supply_periph.i: esp32/power_supply_periph.c.i
 
 # target to preprocess a source file
 esp32/power_supply_periph.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i
 .PHONY : esp32/power_supply_periph.c.i
 
 esp32/power_supply_periph.s: esp32/power_supply_periph.c.s
@@ -271,7 +271,7 @@ esp32/power_supply_periph.s: esp32/power_supply_periph.c.s
 
 # target to generate assembly for a file
 esp32/power_supply_periph.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s
 .PHONY : esp32/power_supply_periph.c.s
 
 lldesc.obj: lldesc.c.obj
@@ -279,7 +279,7 @@ lldesc.obj: lldesc.c.obj
 
 # target to build an object file
 lldesc.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
 .PHONY : lldesc.c.obj
 
 lldesc.i: lldesc.c.i
@@ -287,7 +287,7 @@ lldesc.i: lldesc.c.i
 
 # target to preprocess a source file
 lldesc.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i
 .PHONY : lldesc.c.i
 
 lldesc.s: lldesc.c.s
@@ -295,7 +295,7 @@ lldesc.s: lldesc.c.s
 
 # target to generate assembly for a file
 lldesc.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s
 .PHONY : lldesc.c.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

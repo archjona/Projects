@@ -1,7 +1,7 @@
 esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj: \
  /home/jona/esp-idf/components/esp_app_format/esp_app_desc.c \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

@@ -2,7 +2,7 @@ esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_init.c.obj: \
  /home/jona/esp-idf/components/esp_timer/src/esp_timer_init.c \
  /home/jona/esp-idf/components/esp_system/include/esp_private/startup_internal.h \
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \

@@ -6,7 +6,7 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_ps
  /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h \
  /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_config.h \
  /home/jona/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/jona/esp-idf/components/mbedtls/port/include/esp_mem.h \

@@ -1,6 +1,6 @@
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj: \
  /home/jona/esp-idf/components/freertos/heap_idf.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \

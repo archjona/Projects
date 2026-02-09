@@ -1,7 +1,7 @@
 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj: \
  /home/jona/esp-idf/components/esp_https_ota/src/esp_https_ota.c \
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \

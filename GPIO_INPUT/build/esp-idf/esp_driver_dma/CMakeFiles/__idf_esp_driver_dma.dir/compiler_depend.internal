@@ -35,6 +35,7 @@ esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -79,7 +80,6 @@ esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.o
  /home/jona/esp-idf/components/soc/esp32/register/soc/dport_reg.h
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
  /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c
@@ -110,6 +110,7 @@ esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -159,5 +160,4 @@ esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h
  /home/jona/esp-idf/components/soc/include/soc/efuse_periph.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

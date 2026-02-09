@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/esp-idf/hal//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/esp-idf/hal//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_hal: esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 
 # fast build rule for target.
 __idf_hal/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
 .PHONY : __idf_hal/fast
 
 efuse_hal.obj: efuse_hal.c.obj
@@ -135,7 +135,7 @@ efuse_hal.obj: efuse_hal.c.obj
 
 # target to build an object file
 efuse_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
 .PHONY : efuse_hal.c.obj
 
 efuse_hal.i: efuse_hal.c.i
@@ -143,7 +143,7 @@ efuse_hal.i: efuse_hal.c.i
 
 # target to preprocess a source file
 efuse_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i
 .PHONY : efuse_hal.c.i
 
 efuse_hal.s: efuse_hal.c.s
@@ -151,7 +151,7 @@ efuse_hal.s: efuse_hal.c.s
 
 # target to generate assembly for a file
 efuse_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s
 .PHONY : efuse_hal.c.s
 
 esp32/cache_hal_esp32.obj: esp32/cache_hal_esp32.c.obj
@@ -159,7 +159,7 @@ esp32/cache_hal_esp32.obj: esp32/cache_hal_esp32.c.obj
 
 # target to build an object file
 esp32/cache_hal_esp32.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
 .PHONY : esp32/cache_hal_esp32.c.obj
 
 esp32/cache_hal_esp32.i: esp32/cache_hal_esp32.c.i
@@ -167,7 +167,7 @@ esp32/cache_hal_esp32.i: esp32/cache_hal_esp32.c.i
 
 # target to preprocess a source file
 esp32/cache_hal_esp32.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i
 .PHONY : esp32/cache_hal_esp32.c.i
 
 esp32/cache_hal_esp32.s: esp32/cache_hal_esp32.c.s
@@ -175,7 +175,7 @@ esp32/cache_hal_esp32.s: esp32/cache_hal_esp32.c.s
 
 # target to generate assembly for a file
 esp32/cache_hal_esp32.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s
 .PHONY : esp32/cache_hal_esp32.c.s
 
 esp32/efuse_hal.obj: esp32/efuse_hal.c.obj
@@ -183,7 +183,7 @@ esp32/efuse_hal.obj: esp32/efuse_hal.c.obj
 
 # target to build an object file
 esp32/efuse_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
 .PHONY : esp32/efuse_hal.c.obj
 
 esp32/efuse_hal.i: esp32/efuse_hal.c.i
@@ -191,7 +191,7 @@ esp32/efuse_hal.i: esp32/efuse_hal.c.i
 
 # target to preprocess a source file
 esp32/efuse_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.i
 .PHONY : esp32/efuse_hal.c.i
 
 esp32/efuse_hal.s: esp32/efuse_hal.c.s
@@ -199,7 +199,7 @@ esp32/efuse_hal.s: esp32/efuse_hal.c.s
 
 # target to generate assembly for a file
 esp32/efuse_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s
 .PHONY : esp32/efuse_hal.c.s
 
 hal_utils.obj: hal_utils.c.obj
@@ -207,7 +207,7 @@ hal_utils.obj: hal_utils.c.obj
 
 # target to build an object file
 hal_utils.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
 .PHONY : hal_utils.c.obj
 
 hal_utils.i: hal_utils.c.i
@@ -215,7 +215,7 @@ hal_utils.i: hal_utils.c.i
 
 # target to preprocess a source file
 hal_utils.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
 .PHONY : hal_utils.c.i
 
 hal_utils.s: hal_utils.c.s
@@ -223,7 +223,7 @@ hal_utils.s: hal_utils.c.s
 
 # target to generate assembly for a file
 hal_utils.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
 .PHONY : hal_utils.c.s
 
 mmu_hal.obj: mmu_hal.c.obj
@@ -231,7 +231,7 @@ mmu_hal.obj: mmu_hal.c.obj
 
 # target to build an object file
 mmu_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
 .PHONY : mmu_hal.c.obj
 
 mmu_hal.i: mmu_hal.c.i
@@ -239,7 +239,7 @@ mmu_hal.i: mmu_hal.c.i
 
 # target to preprocess a source file
 mmu_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i
 .PHONY : mmu_hal.c.i
 
 mmu_hal.s: mmu_hal.c.s
@@ -247,7 +247,7 @@ mmu_hal.s: mmu_hal.c.s
 
 # target to generate assembly for a file
 mmu_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s
 .PHONY : mmu_hal.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

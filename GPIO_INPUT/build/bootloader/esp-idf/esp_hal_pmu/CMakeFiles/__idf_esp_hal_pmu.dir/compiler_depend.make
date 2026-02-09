@@ -14,23 +14,23 @@ esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/brownout_hal.c.obj: /home/j
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_hal_pmu/esp32/include/hal/brownout_ll.h \
   /home/jona/esp-idf/components/esp_hal_pmu/include/hal/brownout_hal.h \
   /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/jona/esp-idf/components/hal/include/hal/psdet_types.h \
   /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
-
-config/sdkconfig.h:
 
 /home/jona/esp-idf/components/hal/include/hal/psdet_types.h:
 
 /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/jona/esp-idf/components/esp_hal_pmu/esp32/include/hal/brownout_ll.h:
+
+config/sdkconfig.h:
 
 /home/jona/esp-idf/components/esp_hal_pmu/brownout_hal.c:
 

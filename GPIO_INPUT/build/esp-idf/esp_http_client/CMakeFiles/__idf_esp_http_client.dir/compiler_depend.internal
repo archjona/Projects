@@ -55,6 +55,7 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp_tls.h
  /home/jona/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
@@ -251,7 +252,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.o
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
  /home/jona/esp-idf/components/esp_http_client/lib/http_auth.c
@@ -306,6 +306,7 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
@@ -480,7 +481,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.obj
  /home/jona/esp-idf/components/esp_http_client/lib/http_crypto_psa.c
@@ -514,6 +514,7 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
@@ -593,7 +594,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
  /home/jona/esp-idf/components/esp_http_client/lib/http_header.c
@@ -637,6 +637,7 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.o
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_check.h
@@ -665,7 +666,6 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.o
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
  /home/jona/esp-idf/components/esp_http_client/lib/http_utils.c
@@ -708,6 +708,7 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_check.h
@@ -735,5 +736,4 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

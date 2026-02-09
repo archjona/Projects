@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for encrypted-partition-table-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/c
 include esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Error: The target encrypted-partition-table-flash requires"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/jona/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Error: The target encrypted-partition-table-flash requires"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/jona/esp-idf/tools/cmake/scripts/fail.cmake
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/codegen:
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/codegen
@@ -83,10 +83,10 @@ esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/build: en
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition-table-flash.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition-table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-partition-table-flash
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-partition-table-flash
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/depend
 

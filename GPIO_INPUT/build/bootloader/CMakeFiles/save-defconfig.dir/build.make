@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for save-defconfig.
 
@@ -67,8 +67,8 @@ include CMakeFiles/save-defconfig.dir/compiler_depend.make
 include CMakeFiles/save-defconfig.dir/progress.make
 
 CMakeFiles/save-defconfig:
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config.env
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/embedded/GPIO_INPUT/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /home/jona/esp-idf/components/bootloader/subproject/sdkconfig.defaults --env KCONFIG_REPORT_VERBOSITY=default
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config.env
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/Projects/GPIO_INPUT/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /home/jona/esp-idf/components/bootloader/subproject/sdkconfig.defaults --env KCONFIG_REPORT_VERBOSITY=default
 
 CMakeFiles/save-defconfig.dir/codegen:
 .PHONY : CMakeFiles/save-defconfig.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/save-defconfig.dir/clean:
 .PHONY : CMakeFiles/save-defconfig.dir/clean
 
 CMakeFiles/save-defconfig.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/save-defconfig.dir/DependInfo.cmake "--color=$(COLOR)" save-defconfig
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/save-defconfig.dir/DependInfo.cmake "--color=$(COLOR)" save-defconfig
 .PHONY : CMakeFiles/save-defconfig.dir/depend
 

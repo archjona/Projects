@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for partition_table-flash.
 
@@ -67,8 +67,8 @@ include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/codegen:
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/codegen
@@ -82,10 +82,10 @@ esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build: partition_ta
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)" partition_table-flash
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)" partition_table-flash
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend
 

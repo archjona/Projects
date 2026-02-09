@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for monitor.
 
@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/jona/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "SERIAL_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32-elf-;;--target;esp32;;--revision;0;;/home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.elf" -D WORKING_DIRECTORY=/home/jona/esp-idf/embedded/GPIO_INPUT/build -P run_serial_tool.cmake
+	cd /home/jona/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "SERIAL_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32-elf-;;--target;esp32;;--revision;0;;/home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.elf" -D WORKING_DIRECTORY=/home/jona/esp-idf/Projects/GPIO_INPUT/build -P run_serial_tool.cmake
 
 CMakeFiles/monitor.dir/codegen:
 .PHONY : CMakeFiles/monitor.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)" monitor
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)" monitor
 .PHONY : CMakeFiles/monitor.dir/depend
 

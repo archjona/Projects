@@ -44,10 +44,10 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/pstl/pstl_config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/type_traits
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/typeinfo
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/lock.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
  /home/jona/esp-idf/components/cxx/cxx_guards.cpp
@@ -139,6 +139,7 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/pstl/pstl_config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/type_traits
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/typeinfo
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -204,7 +205,6 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
  /home/jona/esp-idf/components/cxx/cxx_init.cpp
@@ -233,6 +233,7 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
@@ -254,5 +255,4 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

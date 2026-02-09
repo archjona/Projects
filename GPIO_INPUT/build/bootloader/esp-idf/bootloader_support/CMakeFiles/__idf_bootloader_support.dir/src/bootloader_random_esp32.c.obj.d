@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj: \
  /home/jona/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
  /home/jona/esp-idf/components/bootloader_support/include/bootloader_random.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/esp-idf/components/soc/include/soc/rtc_periph.h \

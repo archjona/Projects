@@ -30,6 +30,7 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
@@ -58,7 +59,6 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
  /home/jona/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
  /home/jona/esp-idf/components/xtensa/include/eri.h
  /home/jona/esp-idf/components/xtensa/include/xtensa-debug-module.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
  /home/jona/esp-idf/components/perfmon/xtensa_perfmon_apis.c
@@ -89,6 +89,7 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
@@ -123,7 +124,6 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa/hal.h
  /home/jona/esp-idf/components/xtensa/include/xtensa/xt_perf_consts.h
  /home/jona/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
  /home/jona/esp-idf/components/perfmon/xtensa_perfmon_masks.c
@@ -140,6 +140,7 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/jona/esp-idf/components/perfmon/include/xtensa_perfmon_masks.h
  /home/jona/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
@@ -149,5 +150,4 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa/hal.h
  /home/jona/esp-idf/components/xtensa/include/xtensa/xt_perf_consts.h
  /home/jona/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for uf2-app.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "UF2_CMD=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;/home/jona/esp-idf/tools/mkuf2.py;write;--chip;esp32" -D "UF2_ARGS=--json;/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/flasher_args.json;-o;/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/uf2-app.bin;--bin;app" -P /home/jona/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "UF2_CMD=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;/home/jona/esp-idf/tools/mkuf2.py;write;--chip;esp32" -D "UF2_ARGS=--json;/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/flasher_args.json;-o;/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/uf2-app.bin;--bin;app" -P /home/jona/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 CMakeFiles/uf2-app.dir/codegen:
 .PHONY : CMakeFiles/uf2-app.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 CMakeFiles/uf2-app.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)" uf2-app
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)" uf2-app
 .PHONY : CMakeFiles/uf2-app.dir/depend
 

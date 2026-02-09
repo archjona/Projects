@@ -2,7 +2,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/jona/esp-idf/components/tcp_transport/transport_internal.c \
  /home/jona/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/time.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

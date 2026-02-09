@@ -55,6 +55,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp_tls.h
  /home/jona/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
@@ -242,7 +243,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
  /home/jona/esp-idf/components/tcp_transport/transport_internal.c
@@ -298,6 +298,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp_tls.h
  /home/jona/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
@@ -485,7 +486,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj
  /home/jona/esp-idf/components/tcp_transport/transport_socks_proxy.c
@@ -540,6 +540,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -661,7 +662,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/jona/esp-idf/components/tcp_transport/transport_ssl.c
@@ -717,6 +717,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp_tls.h
  /home/jona/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
@@ -905,7 +906,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/jona/esp-idf/components/tcp_transport/transport_ws.c
@@ -961,6 +961,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h
  /home/jona/esp-idf/components/esp-tls/esp_tls.h
  /home/jona/esp-idf/components/esp-tls/esp_tls_errors.h
@@ -1153,5 +1154,4 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

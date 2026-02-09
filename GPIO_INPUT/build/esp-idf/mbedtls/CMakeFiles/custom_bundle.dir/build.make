@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for custom_bundle.
 
@@ -77,10 +77,10 @@ esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build: custom_bundle
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/mbedtls /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)" custom_bundle
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/mbedtls /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)" custom_bundle
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend
 

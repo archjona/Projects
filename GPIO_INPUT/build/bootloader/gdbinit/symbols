@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.elf
+file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.elf

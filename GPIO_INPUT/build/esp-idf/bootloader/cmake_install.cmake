@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/bootloader/install_local_manifest.txt"
+  file(WRITE "/home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/bootloader/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

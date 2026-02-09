@@ -1,6 +1,6 @@
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj: \
  /home/jona/esp-idf/components/vfs/nullfs.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \

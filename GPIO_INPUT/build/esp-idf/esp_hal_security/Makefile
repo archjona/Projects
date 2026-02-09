@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_hal_security//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_hal_security//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/rule
 .PHONY : esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_hal_security: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_securi
 
 # fast build rule for target.
 __idf_esp_hal_security/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build
 .PHONY : __idf_esp_hal_security/fast
 
 aes_hal.obj: aes_hal.c.obj
@@ -180,7 +180,7 @@ aes_hal.obj: aes_hal.c.obj
 
 # target to build an object file
 aes_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.obj
 .PHONY : aes_hal.c.obj
 
 aes_hal.i: aes_hal.c.i
@@ -188,7 +188,7 @@ aes_hal.i: aes_hal.c.i
 
 # target to preprocess a source file
 aes_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.i
 .PHONY : aes_hal.c.i
 
 aes_hal.s: aes_hal.c.s
@@ -196,7 +196,7 @@ aes_hal.s: aes_hal.c.s
 
 # target to generate assembly for a file
 aes_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/aes_hal.c.s
 .PHONY : aes_hal.c.s
 
 mpi_hal.obj: mpi_hal.c.obj
@@ -204,7 +204,7 @@ mpi_hal.obj: mpi_hal.c.obj
 
 # target to build an object file
 mpi_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.obj
 .PHONY : mpi_hal.c.obj
 
 mpi_hal.i: mpi_hal.c.i
@@ -212,7 +212,7 @@ mpi_hal.i: mpi_hal.c.i
 
 # target to preprocess a source file
 mpi_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.i
 .PHONY : mpi_hal.c.i
 
 mpi_hal.s: mpi_hal.c.s
@@ -220,7 +220,7 @@ mpi_hal.s: mpi_hal.c.s
 
 # target to generate assembly for a file
 mpi_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpi_hal.c.s
 .PHONY : mpi_hal.c.s
 
 mpu_hal.obj: mpu_hal.c.obj
@@ -228,7 +228,7 @@ mpu_hal.obj: mpu_hal.c.obj
 
 # target to build an object file
 mpu_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj
 .PHONY : mpu_hal.c.obj
 
 mpu_hal.i: mpu_hal.c.i
@@ -236,7 +236,7 @@ mpu_hal.i: mpu_hal.c.i
 
 # target to preprocess a source file
 mpu_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i
 .PHONY : mpu_hal.c.i
 
 mpu_hal.s: mpu_hal.c.s
@@ -244,7 +244,7 @@ mpu_hal.s: mpu_hal.c.s
 
 # target to generate assembly for a file
 mpu_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s
 .PHONY : mpu_hal.c.s
 
 sha_hal.obj: sha_hal.c.obj
@@ -252,7 +252,7 @@ sha_hal.obj: sha_hal.c.obj
 
 # target to build an object file
 sha_hal.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.obj
 .PHONY : sha_hal.c.obj
 
 sha_hal.i: sha_hal.c.i
@@ -260,7 +260,7 @@ sha_hal.i: sha_hal.c.i
 
 # target to preprocess a source file
 sha_hal.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.i
 .PHONY : sha_hal.c.i
 
 sha_hal.s: sha_hal.c.s
@@ -268,7 +268,7 @@ sha_hal.s: sha_hal.c.s
 
 # target to generate assembly for a file
 sha_hal.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/sha_hal.c.s
 .PHONY : sha_hal.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

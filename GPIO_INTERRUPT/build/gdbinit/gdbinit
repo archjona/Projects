@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/GPIO_INTERRUPT/build/gdbinit/symbols
+source /home/jona/esp-idf/Projects/GPIO_INTERRUPT/build/gdbinit/connect

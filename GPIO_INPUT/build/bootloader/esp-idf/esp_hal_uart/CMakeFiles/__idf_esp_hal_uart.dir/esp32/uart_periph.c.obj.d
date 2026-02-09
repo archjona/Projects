@@ -3,7 +3,7 @@ esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32/uart_periph.c.obj: 
  /home/jona/esp-idf/components/esp_hal_uart/include/hal/uart_periph.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

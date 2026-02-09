@@ -30,6 +30,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/bootloader/subproject/main/bootloader_hooks.h
  /home/jona/esp-idf/components/bootloader_support/include/bootloader_common.h
  /home/jona/esp-idf/components/bootloader_support/include/esp_app_format.h
@@ -68,5 +69,4 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 

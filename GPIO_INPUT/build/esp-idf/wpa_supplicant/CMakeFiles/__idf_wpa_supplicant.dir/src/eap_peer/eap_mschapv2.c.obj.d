@@ -1,7 +1,7 @@
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj: \
  /home/jona/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /home/jona/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /home/jona/esp-idf/components/wpa_supplicant/port/include/os.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h \

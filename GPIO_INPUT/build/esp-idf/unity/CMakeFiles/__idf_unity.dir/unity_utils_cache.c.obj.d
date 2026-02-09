@@ -1,6 +1,6 @@
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj: \
  /home/jona/esp-idf/components/unity/unity_utils_cache.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/unity/unity/src/unity.h \
  /home/jona/esp-idf/components/unity/unity/src/unity_internals.h \
  /home/jona/esp-idf/components/unity/include/unity_config.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Include any dependencies generated for this target.
 include esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/depend.make
@@ -75,16 +75,16 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/codegen:
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/flags.make
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj: /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -MF CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj.d -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -c /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -MF CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj.d -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -c /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c > CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c > CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s
 
 # Object files for target __idf_nvs_sec_provider
 __idf_nvs_sec_provider_OBJECTS = \
@@ -96,19 +96,19 @@ __idf_nvs_sec_provider_EXTERNAL_OBJECTS =
 esp-idf/nvs_sec_provider/libnvs_sec_provider.a: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj
 esp-idf/nvs_sec_provider/libnvs_sec_provider.a: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/build.make
 esp-idf/nvs_sec_provider/libnvs_sec_provider.a: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnvs_sec_provider.a"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -P CMakeFiles/__idf_nvs_sec_provider.dir/cmake_clean_target.cmake
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_nvs_sec_provider.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libnvs_sec_provider.a"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -P CMakeFiles/__idf_nvs_sec_provider.dir/cmake_clean_target.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_nvs_sec_provider.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/build: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 .PHONY : esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/build
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -P CMakeFiles/__idf_nvs_sec_provider.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider && $(CMAKE_COMMAND) -P CMakeFiles/__idf_nvs_sec_provider.dir/cmake_clean.cmake
 .PHONY : esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/clean
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/nvs_sec_provider /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/DependInfo.cmake "--color=$(COLOR)" __idf_nvs_sec_provider
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/nvs_sec_provider /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/DependInfo.cmake "--color=$(COLOR)" __idf_nvs_sec_provider
 .PHONY : esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/depend
 

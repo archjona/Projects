@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/jona/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/home/jona/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader"
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix"
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/tmp"
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/src"
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/tmp"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/src"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

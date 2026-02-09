@@ -1,7 +1,7 @@
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj: \
  /home/jona/esp-idf/components/spi_flash/spi_flash_os_func_noos.c \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \

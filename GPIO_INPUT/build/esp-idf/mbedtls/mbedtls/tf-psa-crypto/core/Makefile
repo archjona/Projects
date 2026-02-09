@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ tfpsacrypto: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.d
 
 # fast build rule for target.
 tfpsacrypto/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
 .PHONY : tfpsacrypto/fast
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.obj: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
@@ -180,7 +180,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.obj: home/jona/esp-idf/com
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.i: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
@@ -188,7 +188,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.i: home/jona/esp-idf/compo
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.s: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
@@ -196,7 +196,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.s: home/jona/esp-idf/compo
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
@@ -204,7 +204,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj: home/jona/esp-
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.i: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
@@ -212,7 +212,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.i: home/jona/esp-id
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.s: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
@@ -220,7 +220,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.s: home/jona/esp-id
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
@@ -228,7 +228,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj: home/jona/esp-idf
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
@@ -236,7 +236,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i: home/jona/esp-idf/c
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
@@ -244,7 +244,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s: home/jona/esp-idf/c
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
@@ -252,7 +252,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj: home/jona/esp-idf
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
@@ -260,7 +260,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i: home/jona/esp-idf/c
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
 
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s: home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
@@ -268,7 +268,7 @@ home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s: home/jona/esp-idf/c
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj: home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
@@ -276,7 +276,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj: home/jona/esp-i
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.i: home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
@@ -284,7 +284,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.i: home/jona/esp-idf
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
 
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.s: home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
@@ -292,7 +292,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.s: home/jona/esp-idf
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
 
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj: home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
@@ -300,7 +300,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj: home/jona/esp-i
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.i: home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
@@ -308,7 +308,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.i: home/jona/esp-idf
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
 
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.s: home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
@@ -316,7 +316,7 @@ home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.s: home/jona/esp-idf
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.obj: home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.obj
@@ -324,7 +324,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_hardware.obj: home/jona/esp-idf/co
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.i: home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.i
@@ -332,7 +332,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_hardware.i: home/jona/esp-idf/comp
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.i
 
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.s: home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.s
@@ -340,7 +340,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_hardware.s: home/jona/esp-idf/comp
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_hardware.c.s
 
 home/jona/esp-idf/components/mbedtls/port/esp_mem.obj: home/jona/esp-idf/components/mbedtls/port/esp_mem.c.obj
@@ -348,7 +348,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_mem.obj: home/jona/esp-idf/compone
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/esp_mem.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_mem.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/esp_mem.i: home/jona/esp-idf/components/mbedtls/port/esp_mem.c.i
@@ -356,7 +356,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_mem.i: home/jona/esp-idf/component
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/esp_mem.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_mem.c.i
 
 home/jona/esp-idf/components/mbedtls/port/esp_mem.s: home/jona/esp-idf/components/mbedtls/port/esp_mem.c.s
@@ -364,7 +364,7 @@ home/jona/esp-idf/components/mbedtls/port/esp_mem.s: home/jona/esp-idf/component
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/esp_mem.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/esp_mem.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/esp_mem.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.obj: home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
@@ -372,7 +372,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.obj: ho
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.i: home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
@@ -380,7 +380,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.i: home
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.s: home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
@@ -388,7 +388,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.s: home
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_its.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
@@ -396,7 +396,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
@@ -404,7 +404,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
@@ -412,7 +412,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
@@ -420,7 +420,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
@@ -428,7 +428,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
@@ -436,7 +436,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
@@ -444,7 +444,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
@@ -452,7 +452,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
@@ -460,7 +460,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
@@ -468,7 +468,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
@@ -476,7 +476,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
@@ -484,7 +484,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
@@ -492,7 +492,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_es
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
@@ -500,7 +500,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_es
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
@@ -508,7 +508,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_es
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
@@ -516,7 +516,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
@@ -524,7 +524,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
@@ -532,7 +532,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
@@ -540,7 +540,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
@@ -548,7 +548,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
@@ -556,7 +556,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
@@ -564,7 +564,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
@@ -572,7 +572,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
@@ -580,7 +580,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.obj: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
@@ -588,7 +588,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_e
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.i: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
@@ -596,7 +596,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.i
 
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.s: home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
@@ -604,7 +604,7 @@ home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.obj: home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
@@ -612,7 +612,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.obj: home/jona/esp-idf/com
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.i: home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
@@ -620,7 +620,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.i: home/jona/esp-idf/compo
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
 
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
@@ -628,7 +628,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/jona/esp-idf/compo
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
 
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj: home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
@@ -636,7 +636,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj: home/jona
 
 # target to build an object file
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
 
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i: home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
@@ -644,7 +644,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i: home/jona/e
 
 # target to preprocess a source file
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
 
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s: home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
@@ -652,7 +652,7 @@ home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s: home/jona/e
 
 # target to generate assembly for a file
 home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
 .PHONY : home/jona/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
 
 psa_crypto.obj: psa_crypto.c.obj
@@ -660,7 +660,7 @@ psa_crypto.obj: psa_crypto.c.obj
 
 # target to build an object file
 psa_crypto.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.obj
 .PHONY : psa_crypto.c.obj
 
 psa_crypto.i: psa_crypto.c.i
@@ -668,7 +668,7 @@ psa_crypto.i: psa_crypto.c.i
 
 # target to preprocess a source file
 psa_crypto.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.i
 .PHONY : psa_crypto.c.i
 
 psa_crypto.s: psa_crypto.c.s
@@ -676,7 +676,7 @@ psa_crypto.s: psa_crypto.c.s
 
 # target to generate assembly for a file
 psa_crypto.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto.c.s
 .PHONY : psa_crypto.c.s
 
 psa_crypto_client.obj: psa_crypto_client.c.obj
@@ -684,7 +684,7 @@ psa_crypto_client.obj: psa_crypto_client.c.obj
 
 # target to build an object file
 psa_crypto_client.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.obj
 .PHONY : psa_crypto_client.c.obj
 
 psa_crypto_client.i: psa_crypto_client.c.i
@@ -692,7 +692,7 @@ psa_crypto_client.i: psa_crypto_client.c.i
 
 # target to preprocess a source file
 psa_crypto_client.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.i
 .PHONY : psa_crypto_client.c.i
 
 psa_crypto_client.s: psa_crypto_client.c.s
@@ -700,7 +700,7 @@ psa_crypto_client.s: psa_crypto_client.c.s
 
 # target to generate assembly for a file
 psa_crypto_client.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_client.c.s
 .PHONY : psa_crypto_client.c.s
 
 psa_crypto_driver_wrappers_no_static.obj: psa_crypto_driver_wrappers_no_static.c.obj
@@ -708,7 +708,7 @@ psa_crypto_driver_wrappers_no_static.obj: psa_crypto_driver_wrappers_no_static.c
 
 # target to build an object file
 psa_crypto_driver_wrappers_no_static.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
 .PHONY : psa_crypto_driver_wrappers_no_static.c.obj
 
 psa_crypto_driver_wrappers_no_static.i: psa_crypto_driver_wrappers_no_static.c.i
@@ -716,7 +716,7 @@ psa_crypto_driver_wrappers_no_static.i: psa_crypto_driver_wrappers_no_static.c.i
 
 # target to preprocess a source file
 psa_crypto_driver_wrappers_no_static.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.i
 .PHONY : psa_crypto_driver_wrappers_no_static.c.i
 
 psa_crypto_driver_wrappers_no_static.s: psa_crypto_driver_wrappers_no_static.c.s
@@ -724,7 +724,7 @@ psa_crypto_driver_wrappers_no_static.s: psa_crypto_driver_wrappers_no_static.c.s
 
 # target to generate assembly for a file
 psa_crypto_driver_wrappers_no_static.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_driver_wrappers_no_static.c.s
 .PHONY : psa_crypto_driver_wrappers_no_static.c.s
 
 psa_crypto_slot_management.obj: psa_crypto_slot_management.c.obj
@@ -732,7 +732,7 @@ psa_crypto_slot_management.obj: psa_crypto_slot_management.c.obj
 
 # target to build an object file
 psa_crypto_slot_management.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.obj
 .PHONY : psa_crypto_slot_management.c.obj
 
 psa_crypto_slot_management.i: psa_crypto_slot_management.c.i
@@ -740,7 +740,7 @@ psa_crypto_slot_management.i: psa_crypto_slot_management.c.i
 
 # target to preprocess a source file
 psa_crypto_slot_management.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.i
 .PHONY : psa_crypto_slot_management.c.i
 
 psa_crypto_slot_management.s: psa_crypto_slot_management.c.s
@@ -748,7 +748,7 @@ psa_crypto_slot_management.s: psa_crypto_slot_management.c.s
 
 # target to generate assembly for a file
 psa_crypto_slot_management.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_slot_management.c.s
 .PHONY : psa_crypto_slot_management.c.s
 
 psa_crypto_storage.obj: psa_crypto_storage.c.obj
@@ -756,7 +756,7 @@ psa_crypto_storage.obj: psa_crypto_storage.c.obj
 
 # target to build an object file
 psa_crypto_storage.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.obj
 .PHONY : psa_crypto_storage.c.obj
 
 psa_crypto_storage.i: psa_crypto_storage.c.i
@@ -764,7 +764,7 @@ psa_crypto_storage.i: psa_crypto_storage.c.i
 
 # target to preprocess a source file
 psa_crypto_storage.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.i
 .PHONY : psa_crypto_storage.c.i
 
 psa_crypto_storage.s: psa_crypto_storage.c.s
@@ -772,7 +772,7 @@ psa_crypto_storage.s: psa_crypto_storage.c.s
 
 # target to generate assembly for a file
 psa_crypto_storage.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_crypto_storage.c.s
 .PHONY : psa_crypto_storage.c.s
 
 psa_its_file.obj: psa_its_file.c.obj
@@ -780,7 +780,7 @@ psa_its_file.obj: psa_its_file.c.obj
 
 # target to build an object file
 psa_its_file.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.obj
 .PHONY : psa_its_file.c.obj
 
 psa_its_file.i: psa_its_file.c.i
@@ -788,7 +788,7 @@ psa_its_file.i: psa_its_file.c.i
 
 # target to preprocess a source file
 psa_its_file.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.i
 .PHONY : psa_its_file.c.i
 
 psa_its_file.s: psa_its_file.c.s
@@ -796,7 +796,7 @@ psa_its_file.s: psa_its_file.c.s
 
 # target to generate assembly for a file
 psa_its_file.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/psa_its_file.c.s
 .PHONY : psa_its_file.c.s
 
 tf_psa_crypto_config.obj: tf_psa_crypto_config.c.obj
@@ -804,7 +804,7 @@ tf_psa_crypto_config.obj: tf_psa_crypto_config.c.obj
 
 # target to build an object file
 tf_psa_crypto_config.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.obj
 .PHONY : tf_psa_crypto_config.c.obj
 
 tf_psa_crypto_config.i: tf_psa_crypto_config.c.i
@@ -812,7 +812,7 @@ tf_psa_crypto_config.i: tf_psa_crypto_config.c.i
 
 # target to preprocess a source file
 tf_psa_crypto_config.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.i
 .PHONY : tf_psa_crypto_config.c.i
 
 tf_psa_crypto_config.s: tf_psa_crypto_config.c.s
@@ -820,7 +820,7 @@ tf_psa_crypto_config.s: tf_psa_crypto_config.c.s
 
 # target to generate assembly for a file
 tf_psa_crypto_config.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_config.c.s
 .PHONY : tf_psa_crypto_config.c.s
 
 tf_psa_crypto_version.obj: tf_psa_crypto_version.c.obj
@@ -828,7 +828,7 @@ tf_psa_crypto_version.obj: tf_psa_crypto_version.c.obj
 
 # target to build an object file
 tf_psa_crypto_version.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.obj
 .PHONY : tf_psa_crypto_version.c.obj
 
 tf_psa_crypto_version.i: tf_psa_crypto_version.c.i
@@ -836,7 +836,7 @@ tf_psa_crypto_version.i: tf_psa_crypto_version.c.i
 
 # target to preprocess a source file
 tf_psa_crypto_version.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.i
 .PHONY : tf_psa_crypto_version.c.i
 
 tf_psa_crypto_version.s: tf_psa_crypto_version.c.s
@@ -844,7 +844,7 @@ tf_psa_crypto_version.s: tf_psa_crypto_version.c.s
 
 # target to generate assembly for a file
 tf_psa_crypto_version.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/tf_psa_crypto_version.c.s
 .PHONY : tf_psa_crypto_version.c.s
 
 # Help Target
@@ -955,6 +955,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

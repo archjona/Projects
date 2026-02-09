@@ -36,6 +36,7 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/bootloader_support/include/bootloader_util.h
  /home/jona/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h
  /home/jona/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -85,7 +86,6 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
  /home/jona/esp-idf/components/spi_flash/include/esp_flash.h
  /home/jona/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
  /home/jona/esp-idf/components/spi_flash/include/spi_flash_mmap.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
  /home/jona/esp-idf/components/esp_partition/partition_target.c
@@ -116,6 +116,7 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/app_update/include/esp_ota_ops.h
  /home/jona/esp-idf/components/bootloader_support/include/bootloader_common.h
  /home/jona/esp-idf/components/bootloader_support/include/esp_app_format.h
@@ -158,5 +159,4 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
  /home/jona/esp-idf/components/spi_flash/include/esp_flash.h
  /home/jona/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
  /home/jona/esp-idf/components/spi_flash/include/spi_flash_mmap.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

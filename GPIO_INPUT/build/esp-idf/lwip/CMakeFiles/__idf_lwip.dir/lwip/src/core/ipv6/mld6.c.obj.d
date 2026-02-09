@@ -2,7 +2,7 @@ esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/mld6.c.obj: \
  /home/jona/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c \
  /home/jona/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
  /home/jona/esp-idf/components/lwip/port/include/lwipopts.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

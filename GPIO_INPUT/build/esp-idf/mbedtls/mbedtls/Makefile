@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/rule
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ mbedtls-apidoc: esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/rule
 
 # fast build rule for target.
 mbedtls-apidoc/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build.make esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build.make esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build
 .PHONY : mbedtls-apidoc/fast
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

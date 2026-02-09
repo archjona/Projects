@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for partition_table_bin.
 
@@ -71,12 +71,12 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partitio
 
 partition_table/partition-table.bin: /home/jona/esp-idf/components/partition_table/partitions_singleapp.csv
 partition_table/partition-table.bin: /home/jona/esp-idf/components/partition_table/gen_esp32part.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /home/jona/esp-idf/components/partition_table/partitions_singleapp.csv /home/jona/esp-idf/embedded/GPIO_INPUT/build/partition_table/partition-table.bin
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /home/jona/esp-idf/embedded/GPIO_INPUT/build/partition_table/partition-table.bin
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /home/jona/esp-idf/components/partition_table/partitions_singleapp.csv /home/jona/esp-idf/Projects/GPIO_INPUT/build/partition_table/partition-table.bin
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /home/jona/esp-idf/Projects/GPIO_INPUT/build/partition_table/partition-table.bin
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/codegen:
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/codegen
@@ -91,10 +91,10 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build: partition_tabl
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)" partition_table_bin
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)" partition_table_bin
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for app.
 
@@ -84,6 +84,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
 .PHONY : CMakeFiles/app.dir/depend
 

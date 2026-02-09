@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/main/GPIO_INPUT.c" "esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INPUT.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INPUT.c.obj.d"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/main/GPIO_INPUT.c" "esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INPUT.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INPUT.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

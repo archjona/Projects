@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: bootloader.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/jona/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/jona/esp-idf/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size.dir/codegen:
 .PHONY : CMakeFiles/size.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/size.dir/clean:
 .PHONY : CMakeFiles/size.dir/clean
 
 CMakeFiles/size.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)" size
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)" size
 .PHONY : CMakeFiles/size.dir/depend
 

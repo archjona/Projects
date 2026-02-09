@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
+  "/home/jona/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/depend.make
@@ -75,30 +75,30 @@ esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/codegen:
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/flags.make
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj: /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj -MF CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj.d -o CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj -c /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj -MF CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj.d -o CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.obj -c /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c > CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c > CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.i
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c -o CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c -o CMakeFiles/__idf_esp_driver_dma.dir/src/esp_dma_utils.c.s
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/flags.make
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj: /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj -MF CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj.d -o CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj -c /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj -MF CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj.d -o CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj -c /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c > CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c > CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.i
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c -o CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/esp_driver_dma/src/gdma_link.c -o CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.s
 
 # Object files for target __idf_esp_driver_dma
 __idf_esp_driver_dma_OBJECTS = \
@@ -112,19 +112,19 @@ esp-idf/esp_driver_dma/libesp_driver_dma.a: esp-idf/esp_driver_dma/CMakeFiles/__
 esp-idf/esp_driver_dma/libesp_driver_dma.a: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/src/gdma_link.c.obj
 esp-idf/esp_driver_dma/libesp_driver_dma.a: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build.make
 esp-idf/esp_driver_dma/libesp_driver_dma.a: esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_driver_dma.a"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_dma.dir/cmake_clean_target.cmake
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_dma.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_driver_dma.a"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_dma.dir/cmake_clean_target.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_dma.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build: esp-idf/esp_driver_dma/libesp_driver_dma.a
 .PHONY : esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/build
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_dma.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_dma.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/clean
 
 esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/esp_driver_dma /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/DependInfo.cmake "--color=$(COLOR)" __idf_esp_driver_dma
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/esp_driver_dma /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/DependInfo.cmake "--color=$(COLOR)" __idf_esp_driver_dma
 .PHONY : esp-idf/esp_driver_dma/CMakeFiles/__idf_esp_driver_dma.dir/depend
 

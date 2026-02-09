@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/jona/esp-idf/components/bootloader/subproject")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

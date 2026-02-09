@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for sections_ld_in_preprocess.
 
@@ -70,8 +70,8 @@ esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess: esp-idf/esp_system/ld/s
 
 esp-idf/esp_system/ld/sections.ld.in: /home/jona/esp-idf/components/esp_system/ld/esp32/sections.ld.in
 esp-idf/esp_system/ld/sections.ld.in: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/jona/esp-idf/components/esp_system/ld/esp32/sections.ld.in -> /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system/ld/sections.ld.in"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/home/jona/esp-idf/components/esp_system/ld/esp32/sections.ld.in -DTARGET=/home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system/ld/sections.ld.in "-DCFLAGS=-I\"/home/jona/esp-idf/embedded/GPIO_INPUT/build/config\" -I\"/home/jona/esp-idf/components/esp_system/ld\"" -P /home/jona/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/jona/esp-idf/components/esp_system/ld/esp32/sections.ld.in -> /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system/ld/sections.ld.in"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/home/jona/esp-idf/components/esp_system/ld/esp32/sections.ld.in -DTARGET=/home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system/ld/sections.ld.in "-DCFLAGS=-I\"/home/jona/esp-idf/Projects/GPIO_INPUT/build/config\" -I\"/home/jona/esp-idf/components/esp_system/ld\"" -P /home/jona/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/codegen:
 .PHONY : esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/codegen
@@ -86,10 +86,10 @@ esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/build: sections_ld_i
 .PHONY : esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/build
 
 esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/sections_ld_in_preprocess.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/sections_ld_in_preprocess.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/clean
 
 esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/esp_system /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)" sections_ld_in_preprocess
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/esp_system /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)" sections_ld_in_preprocess
 .PHONY : esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/depend
 

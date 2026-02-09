@@ -1,7 +1,7 @@
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: \
  /home/jona/esp-idf/components/esp_hid/src/esp_hidd.c \
  /home/jona/esp-idf/components/esp_hid/include/esp_hidd.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_common/include/esp_err.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

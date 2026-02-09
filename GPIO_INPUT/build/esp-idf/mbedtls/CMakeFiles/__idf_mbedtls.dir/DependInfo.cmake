@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/embedded/GPIO_INPUT/build/x509_crt_bundle.S" "/home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj"
+  "/home/jona/esp-idf/Projects/GPIO_INPUT/build/x509_crt_bundle.S" "/home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

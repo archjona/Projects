@@ -25,6 +25,7 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/esp32/i2s_periph.c.obj: /ho
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_hal_i2s/esp32/include/hal/i2s_ll.h \
@@ -45,8 +46,7 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/esp32/i2s_periph.c.obj: /ho
   /home/jona/esp-idf/components/soc/esp32/register/soc/i2s_struct.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/include/soc/regdma.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/i2s_hal.c.obj: /home/jona/esp-idf/components/esp_hal_i2s/i2s_hal.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -72,6 +72,7 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/i2s_hal.c.obj: /home/jona/e
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_hal_i2s/esp32/include/hal/i2s_ll.h \
@@ -90,8 +91,7 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/i2s_hal.c.obj: /home/jona/e
   /home/jona/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/i2s_struct.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 
 /home/jona/esp-idf/components/esp_hal_i2s/include/hal/i2s_hal.h:
@@ -108,10 +108,6 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/i2s_hal.c.obj: /home/jona/e
 
 /home/jona/esp-idf/components/soc/esp32/register/soc/dport_reg.h:
 
-config/sdkconfig.h:
-
-/home/jona/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
-
 /home/jona/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
 /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h:
@@ -123,6 +119,8 @@ config/sdkconfig.h:
 /home/jona/esp-idf/components/soc/esp32/include/soc/interrupts.h:
 
 /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/jona/esp-idf/components/esp_hal_i2s/include/hal/i2s_types.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
@@ -184,10 +182,12 @@ config/sdkconfig.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
 
-/home/jona/esp-idf/components/esp_hal_i2s/include/hal/i2s_types.h:
-
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
+
+/home/jona/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
+
+config/sdkconfig.h:

@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj: \
  /home/jona/esp-idf/components/esp_rom/patches/esp_rom_gpio.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \

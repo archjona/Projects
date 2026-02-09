@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for config-report.
 
@@ -67,8 +67,8 @@ include CMakeFiles/config-report.dir/compiler_depend.make
 include CMakeFiles/config-report.dir/progress.make
 
 CMakeFiles/config-report:
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/config.env
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/embedded/GPIO_INPUT/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/config.env --env IDF_TARGET=esp32 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output report /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/kconfig_parse_report.json --env KCONFIG_REPORT_VERBOSITY=default
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/config.env
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/Projects/GPIO_INPUT/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/config.env --env IDF_TARGET=esp32 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output report /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/kconfig_parse_report.json --env KCONFIG_REPORT_VERBOSITY=default
 
 CMakeFiles/config-report.dir/codegen:
 .PHONY : CMakeFiles/config-report.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/config-report.dir/clean:
 .PHONY : CMakeFiles/config-report.dir/clean
 
 CMakeFiles/config-report.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles/config-report.dir/DependInfo.cmake "--color=$(COLOR)" config-report
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles/config-report.dir/DependInfo.cmake "--color=$(COLOR)" config-report
 .PHONY : CMakeFiles/config-report.dir/depend
 

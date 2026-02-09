@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config.env
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfserver --env-file /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config.env --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/embedded/GPIO_INPUT/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config.env
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m kconfserver --env-file /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config.env --kconfig /home/jona/esp-idf/Kconfig --sdkconfig-rename /home/jona/esp-idf/sdkconfig.rename --config /home/jona/esp-idf/Projects/GPIO_INPUT/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
 
 CMakeFiles/confserver.dir/codegen:
 .PHONY : CMakeFiles/confserver.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)" confserver
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)" confserver
 .PHONY : CMakeFiles/confserver.dir/depend
 

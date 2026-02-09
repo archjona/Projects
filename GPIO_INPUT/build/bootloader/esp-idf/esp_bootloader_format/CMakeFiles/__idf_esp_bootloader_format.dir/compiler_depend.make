@@ -30,6 +30,7 @@ esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_boo
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_bootloader_format/include/esp_bootloader_desc.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -37,11 +38,8 @@ esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_boo
   /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
-  /home/jona/esp-idf/components/esp_libc/platform_include/sys/lock.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/esp_libc/platform_include/sys/lock.h
 
-
-config/sdkconfig.h:
 
 /home/jona/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
@@ -56,6 +54,8 @@ config/sdkconfig.h:
 /home/jona/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/jona/esp-idf/components/esp_bootloader_format/include/esp_bootloader_desc.h:
+
+config/sdkconfig.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:
 

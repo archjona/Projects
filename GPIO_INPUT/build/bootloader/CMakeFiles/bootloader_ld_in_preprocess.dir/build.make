@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for bootloader_ld_in_preprocess.
 
@@ -70,8 +70,8 @@ CMakeFiles/bootloader_ld_in_preprocess: ld/bootloader.ld
 
 ld/bootloader.ld: /home/jona/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in
 ld/bootloader.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/jona/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -> /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/ld/bootloader.ld"
-	/usr/bin/cmake -DCC=/home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/home/jona/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -DTARGET=/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config\" -I\"/home/jona/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/jona/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/jona/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -> /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/ld/bootloader.ld"
+	/usr/bin/cmake -DCC=/home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/home/jona/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -DTARGET=/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config\" -I\"/home/jona/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/jona/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 CMakeFiles/bootloader_ld_in_preprocess.dir/codegen:
 .PHONY : CMakeFiles/bootloader_ld_in_preprocess.dir/codegen
@@ -90,6 +90,6 @@ CMakeFiles/bootloader_ld_in_preprocess.dir/clean:
 .PHONY : CMakeFiles/bootloader_ld_in_preprocess.dir/clean
 
 CMakeFiles/bootloader_ld_in_preprocess.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/bootloader_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)" bootloader_ld_in_preprocess
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/bootloader_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)" bootloader_ld_in_preprocess
 .PHONY : CMakeFiles/bootloader_ld_in_preprocess.dir/depend
 

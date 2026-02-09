@@ -33,6 +33,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -60,7 +61,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
  /home/jona/esp-idf/components/log/src/log.c
@@ -91,6 +91,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -111,7 +112,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
  /home/jona/esp-idf/components/log/src/log_format_text.c
@@ -139,6 +139,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -159,7 +160,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
  /home/jona/esp-idf/components/log/src/log_print.c
@@ -187,6 +187,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -200,7 +201,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
  /home/jona/esp-idf/components/log/src/log_timestamp_common.c
@@ -237,6 +237,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
@@ -247,7 +248,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
  /home/jona/esp-idf/components/log/include/esp_log_timestamp.h
  /home/jona/esp-idf/components/log/include/esp_private/log_timestamp.h
  /home/jona/esp-idf/components/log/include/esp_private/log_util.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
  /home/jona/esp-idf/components/log/src/noos/log_lock.c
@@ -269,10 +269,10 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/jona/esp-idf/components/log/include/esp_private/log_lock.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
  /home/jona/esp-idf/components/log/src/noos/log_timestamp.c
@@ -300,6 +300,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -336,7 +337,6 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa/xtruntime.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 
 esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj
  /home/jona/esp-idf/components/log/src/noos/util.c
@@ -359,10 +359,10 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_sys.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h
 

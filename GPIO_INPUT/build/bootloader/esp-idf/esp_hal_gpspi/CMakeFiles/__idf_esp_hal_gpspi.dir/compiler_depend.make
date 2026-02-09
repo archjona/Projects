@@ -19,6 +19,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32/spi_periph.c.obj:
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_hal_gpspi/esp32/include/soc/spi_pins.h \
@@ -32,8 +33,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32/spi_periph.c.obj:
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj: /home/jona/esp-idf/components/esp_hal_gpspi/spi_hal.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -63,6 +63,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj: /home/jo
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -91,8 +92,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj: /home/jo
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj: /home/jona/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -123,6 +123,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj: /ho
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -169,8 +170,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj: /ho
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj: /home/jona/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -197,6 +197,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj: /h
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_common/include/esp_types.h \
@@ -220,8 +221,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj: /h
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.obj: /home/jona/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -248,6 +248,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.ob
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/jona/esp-idf/components/esp_common/include/esp_types.h \
@@ -271,8 +272,7 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.ob
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 
 /home/jona/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c:
@@ -307,10 +307,6 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.ob
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
 
-/home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h:
-
-/home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h:
-
 /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h:
@@ -329,15 +325,15 @@ esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.ob
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
 
+config/sdkconfig.h:
+
+/home/jona/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
+
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
 
 /home/jona/esp-idf/components/hal/platform_port/include/hal/misc.h:
-
-/home/jona/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
-
-config/sdkconfig.h:
 
 /home/jona/esp-idf/components/esp_hal_gpspi/esp32/include/soc/spi_pins.h:
 
@@ -386,6 +382,10 @@ config/sdkconfig.h:
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
+
+/home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h:
+
+/home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h:
 
 /home/jona/esp-idf/components/log/include/esp_log_args.h:
 

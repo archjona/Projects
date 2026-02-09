@@ -25,6 +25,7 @@ esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/esp32/timer_periph.c.obj:
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -47,8 +48,7 @@ esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/esp32/timer_periph.c.obj:
   /home/jona/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/timer_group_struct.h \
   /home/jona/esp-idf/components/soc/include/soc/regdma.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/timer_hal.c.obj: /home/jona/esp-idf/components/esp_hal_timg/timer_hal.c \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
@@ -74,6 +74,7 @@ esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/timer_hal.c.obj: /home/jo
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -93,15 +94,12 @@ esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/timer_hal.c.obj: /home/jo
   /home/jona/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/timer_group_struct.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 
 /home/jona/esp-idf/components/esp_hal_timg/include/hal/timer_hal.h:
 
 /home/jona/esp-idf/components/esp_hal_timg/timer_hal.c:
-
-config/sdkconfig.h:
 
 /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
@@ -130,6 +128,8 @@ config/sdkconfig.h:
 /home/jona/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h:
 
 /home/jona/esp-idf/components/esp_hal_timg/include/hal/timer_periph.h:
+
+/home/jona/esp-idf/components/esp_hal_timg/esp32/include/hal/timg_ll.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
@@ -183,13 +183,13 @@ config/sdkconfig.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
 
-/home/jona/esp-idf/components/esp_hal_timg/esp32/include/hal/timg_ll.h:
-
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
+
+config/sdkconfig.h:
 
 /home/jona/esp-idf/components/esp_hal_timg/esp32/include/hal/timer_ll.h:
 

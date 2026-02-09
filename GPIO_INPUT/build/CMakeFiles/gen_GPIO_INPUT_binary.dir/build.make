@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for gen_GPIO_INPUT_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_GPIO_INPUT_binary.dir/progress.make
 CMakeFiles/gen_GPIO_INPUT_binary: .bin_timestamp
 
 .bin_timestamp: GPIO_INPUT.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.bin /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.elf
-	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.bin"
-	/usr/bin/cmake -E md5sum /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.bin > /home/jona/esp-idf/embedded/GPIO_INPUT/build/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.bin /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.elf
+	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.bin"
+	/usr/bin/cmake -E md5sum /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.bin > /home/jona/esp-idf/Projects/GPIO_INPUT/build/.bin_timestamp
 
 CMakeFiles/gen_GPIO_INPUT_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_GPIO_INPUT_binary.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/gen_GPIO_INPUT_binary.dir/clean:
 .PHONY : CMakeFiles/gen_GPIO_INPUT_binary.dir/clean
 
 CMakeFiles/gen_GPIO_INPUT_binary.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles/gen_GPIO_INPUT_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_GPIO_INPUT_binary
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles/gen_GPIO_INPUT_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_GPIO_INPUT_binary
 .PHONY : CMakeFiles/gen_GPIO_INPUT_binary.dir/depend
 

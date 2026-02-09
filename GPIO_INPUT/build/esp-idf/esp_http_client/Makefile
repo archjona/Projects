@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/esp_http_client//CMakeFiles/progress.marks
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/esp_http_client//CMakeFiles/progress.marks
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/clean
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/preinstall
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule
 .PHONY : esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_http_client: esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.
 
 # fast build rule for target.
 __idf_esp_http_client/fast:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build
 .PHONY : __idf_esp_http_client/fast
 
 esp_http_client.obj: esp_http_client.c.obj
@@ -180,7 +180,7 @@ esp_http_client.obj: esp_http_client.c.obj
 
 # target to build an object file
 esp_http_client.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
 .PHONY : esp_http_client.c.obj
 
 esp_http_client.i: esp_http_client.c.i
@@ -188,7 +188,7 @@ esp_http_client.i: esp_http_client.c.i
 
 # target to preprocess a source file
 esp_http_client.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.i
 .PHONY : esp_http_client.c.i
 
 esp_http_client.s: esp_http_client.c.s
@@ -196,7 +196,7 @@ esp_http_client.s: esp_http_client.c.s
 
 # target to generate assembly for a file
 esp_http_client.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.s
 .PHONY : esp_http_client.c.s
 
 lib/http_auth.obj: lib/http_auth.c.obj
@@ -204,7 +204,7 @@ lib/http_auth.obj: lib/http_auth.c.obj
 
 # target to build an object file
 lib/http_auth.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
 .PHONY : lib/http_auth.c.obj
 
 lib/http_auth.i: lib/http_auth.c.i
@@ -212,7 +212,7 @@ lib/http_auth.i: lib/http_auth.c.i
 
 # target to preprocess a source file
 lib/http_auth.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.i
 .PHONY : lib/http_auth.c.i
 
 lib/http_auth.s: lib/http_auth.c.s
@@ -220,7 +220,7 @@ lib/http_auth.s: lib/http_auth.c.s
 
 # target to generate assembly for a file
 lib/http_auth.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.s
 .PHONY : lib/http_auth.c.s
 
 lib/http_crypto_psa.obj: lib/http_crypto_psa.c.obj
@@ -228,7 +228,7 @@ lib/http_crypto_psa.obj: lib/http_crypto_psa.c.obj
 
 # target to build an object file
 lib/http_crypto_psa.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.obj
 .PHONY : lib/http_crypto_psa.c.obj
 
 lib/http_crypto_psa.i: lib/http_crypto_psa.c.i
@@ -236,7 +236,7 @@ lib/http_crypto_psa.i: lib/http_crypto_psa.c.i
 
 # target to preprocess a source file
 lib/http_crypto_psa.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.i
 .PHONY : lib/http_crypto_psa.c.i
 
 lib/http_crypto_psa.s: lib/http_crypto_psa.c.s
@@ -244,7 +244,7 @@ lib/http_crypto_psa.s: lib/http_crypto_psa.c.s
 
 # target to generate assembly for a file
 lib/http_crypto_psa.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_psa.c.s
 .PHONY : lib/http_crypto_psa.c.s
 
 lib/http_header.obj: lib/http_header.c.obj
@@ -252,7 +252,7 @@ lib/http_header.obj: lib/http_header.c.obj
 
 # target to build an object file
 lib/http_header.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
 .PHONY : lib/http_header.c.obj
 
 lib/http_header.i: lib/http_header.c.i
@@ -260,7 +260,7 @@ lib/http_header.i: lib/http_header.c.i
 
 # target to preprocess a source file
 lib/http_header.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.i
 .PHONY : lib/http_header.c.i
 
 lib/http_header.s: lib/http_header.c.s
@@ -268,7 +268,7 @@ lib/http_header.s: lib/http_header.c.s
 
 # target to generate assembly for a file
 lib/http_header.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.s
 .PHONY : lib/http_header.c.s
 
 lib/http_utils.obj: lib/http_utils.c.obj
@@ -276,7 +276,7 @@ lib/http_utils.obj: lib/http_utils.c.obj
 
 # target to build an object file
 lib/http_utils.c.obj:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
 .PHONY : lib/http_utils.c.obj
 
 lib/http_utils.i: lib/http_utils.c.i
@@ -284,7 +284,7 @@ lib/http_utils.i: lib/http_utils.c.i
 
 # target to preprocess a source file
 lib/http_utils.c.i:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.i
 .PHONY : lib/http_utils.c.i
 
 lib/http_utils.s: lib/http_utils.c.s
@@ -292,7 +292,7 @@ lib/http_utils.s: lib/http_utils.c.s
 
 # target to generate assembly for a file
 lib/http_utils.c.s:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.s
 .PHONY : lib/http_utils.c.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

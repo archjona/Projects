@@ -1,6 +1,6 @@
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj: \
  /home/jona/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

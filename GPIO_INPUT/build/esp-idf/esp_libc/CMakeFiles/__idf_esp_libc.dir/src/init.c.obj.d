@@ -1,6 +1,6 @@
 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/init.c.obj: \
  /home/jona/esp-idf/components/esp_libc/src/init.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/reent.h \
  /home/jona/esp-idf/components/esp_system/include/esp_private/startup_internal.h \

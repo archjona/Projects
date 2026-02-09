@@ -1,6 +1,6 @@
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj: \
  /home/jona/esp-idf/components/pthread/pthread.c \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/time.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

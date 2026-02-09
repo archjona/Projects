@@ -4,7 +4,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
  /home/jona/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
  /home/jona/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
  /home/jona/esp-idf/components/lwip/port/include/lwipopts.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

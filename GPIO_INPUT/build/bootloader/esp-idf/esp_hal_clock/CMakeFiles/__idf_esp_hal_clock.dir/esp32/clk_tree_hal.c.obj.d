@@ -1,7 +1,7 @@
 esp-idf/esp_hal_clock/CMakeFiles/__idf_esp_hal_clock.dir/esp32/clk_tree_hal.c.obj: \
  /home/jona/esp-idf/components/esp_hal_clock/esp32/clk_tree_hal.c \
  /home/jona/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_hal_clock/include/hal/clk_tree_hal.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \

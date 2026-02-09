@@ -30,6 +30,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -98,7 +99,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
  /home/jona/esp-idf/components/unity/unity/src/unity.c
@@ -132,6 +132,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
  /home/jona/esp-idf/components/esp_common/include/esp_err.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
@@ -142,7 +143,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
  /home/jona/esp-idf/components/unity/include/unity_test_runner.h
  /home/jona/esp-idf/components/unity/unity/src/unity.h
  /home/jona/esp-idf/components/unity/unity/src/unity_internals.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
  /home/jona/esp-idf/components/unity/unity_compat.c
@@ -176,6 +176,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h
  /home/jona/esp-idf/components/esp_common/include/esp_err.h
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h
@@ -186,7 +187,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
  /home/jona/esp-idf/components/unity/include/unity_test_runner.h
  /home/jona/esp-idf/components/unity/unity/src/unity.h
  /home/jona/esp-idf/components/unity/unity/src/unity_internals.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
  /home/jona/esp-idf/components/unity/unity_port_esp32.c
@@ -223,6 +223,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -261,7 +262,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa/xtruntime.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
  /home/jona/esp-idf/components/unity/unity_runner.c
@@ -299,6 +299,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -314,7 +315,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
  /home/jona/esp-idf/components/unity/include/unity_test_runner.h
  /home/jona/esp-idf/components/unity/unity/src/unity.h
  /home/jona/esp-idf/components/unity/unity/src/unity_internals.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
  /home/jona/esp-idf/components/unity/unity_utils_cache.c
@@ -355,6 +355,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
@@ -392,7 +393,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
  /home/jona/esp-idf/components/unity/include/unity_test_utils_cache.h
  /home/jona/esp-idf/components/unity/unity/src/unity.h
  /home/jona/esp-idf/components/unity/unity/src/unity_internals.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
  /home/jona/esp-idf/components/unity/unity_utils_freertos.c
@@ -430,6 +430,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -504,7 +505,6 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 
 esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
  /home/jona/esp-idf/components/unity/unity_utils_memory.c
@@ -539,6 +539,7 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -611,5 +612,4 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
  /home/jona/esp-idf/components/xtensa/include/xtensa_api.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_config.h
  /home/jona/esp-idf/components/xtensa/include/xtensa_context.h
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h
 

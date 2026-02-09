@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for app_check_size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/app_check_size.dir/compiler_depend.make
 include CMakeFiles/app_check_size.dir/progress.make
 
 CMakeFiles/app_check_size:
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jona/esp-idf/embedded/GPIO_INPUT/build/partition_table/partition-table.bin /home/jona/esp-idf/embedded/GPIO_INPUT/build/GPIO_INPUT.bin
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jona/esp-idf/Projects/GPIO_INPUT/build/partition_table/partition-table.bin /home/jona/esp-idf/Projects/GPIO_INPUT/build/GPIO_INPUT.bin
 
 CMakeFiles/app_check_size.dir/codegen:
 .PHONY : CMakeFiles/app_check_size.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/app_check_size.dir/clean:
 .PHONY : CMakeFiles/app_check_size.dir/clean
 
 CMakeFiles/app_check_size.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)" app_check_size
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)" app_check_size
 .PHONY : CMakeFiles/app_check_size.dir/depend
 

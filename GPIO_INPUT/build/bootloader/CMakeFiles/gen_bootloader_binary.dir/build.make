@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for gen_bootloader_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_bootloader_binary.dir/progress.make
 CMakeFiles/gen_bootloader_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.bin /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.elf
-	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.bin"
-	/usr/bin/cmake -E md5sum /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.bin > /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.bin /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.elf
+	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.bin"
+	/usr/bin/cmake -E md5sum /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.bin > /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/.bin_timestamp
 
 CMakeFiles/gen_bootloader_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_bootloader_binary.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/gen_bootloader_binary.dir/clean:
 .PHONY : CMakeFiles/gen_bootloader_binary.dir/clean
 
 CMakeFiles/gen_bootloader_binary.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/gen_bootloader_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_bootloader_binary
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/gen_bootloader_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_bootloader_binary
 .PHONY : CMakeFiles/gen_bootloader_binary.dir/depend
 

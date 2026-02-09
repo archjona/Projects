@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Utility rule file for efuse_common_table.
 
@@ -67,8 +67,8 @@ include esp-idf/efuse/CMakeFiles/efuse_common_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_common_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_common_table:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"efuse_common_table\" is deprecated. Have you wanted to run \"efuse-common-table\" instead?"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/efuse && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"efuse_common_table\" is deprecated. Have you wanted to run \"efuse-common-table\" instead?"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/efuse && /usr/bin/cmake -E echo 
 
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/codegen:
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/codegen
@@ -82,10 +82,10 @@ esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build: efuse_common_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_common_table.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_common_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/efuse /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/efuse /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/efuse/CMakeFiles/efuse_common_table.dir/DependInfo.cmake "--color=$(COLOR)" efuse_common_table
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/efuse /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/efuse /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/efuse/CMakeFiles/efuse_common_table.dir/DependInfo.cmake "--color=$(COLOR)" efuse_common_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend
 

@@ -1,7 +1,7 @@
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj: \
  /home/jona/esp-idf/components/nvs_flash/src/nvs_partition.cpp \
  /home/jona/esp-idf/components/nvs_flash/src/nvs_partition.hpp \
- /home/jona/esp-idf/embedded/GPIO_INPUT/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/GPIO_INPUT/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/nvs_flash/src/partition.hpp \
  /home/jona/esp-idf/components/esp_common/include/esp_err.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \

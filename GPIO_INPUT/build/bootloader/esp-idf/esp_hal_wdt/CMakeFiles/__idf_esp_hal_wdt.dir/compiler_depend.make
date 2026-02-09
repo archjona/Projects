@@ -27,6 +27,7 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj: /home/j
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
   /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+  config/sdkconfig.h \
   /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
   /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
   /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -50,11 +51,8 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj: /home/j
   /home/jona/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
   /home/jona/esp-idf/components/soc/esp32/register/soc/timer_group_struct.h \
   /home/jona/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
-  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  config/sdkconfig.h
+  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
-
-config/sdkconfig.h:
 
 /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
@@ -83,6 +81,8 @@ config/sdkconfig.h:
 /home/jona/esp-idf/components/esp_hal_wdt/esp32/include/hal/rwdt_ll.h:
 
 /home/jona/esp-idf/components/esp_hal_wdt/esp32/include/hal/mwdt_ll.h:
+
+/home/jona/esp-idf/components/esp_hal_timg/esp32/include/hal/timg_ll.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
@@ -128,6 +128,8 @@ config/sdkconfig.h:
 
 /home/jona/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c:
 
+config/sdkconfig.h:
+
 /home/jona/esp-idf/components/esp_libc/platform_include/assert.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
@@ -141,8 +143,6 @@ config/sdkconfig.h:
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
-
-/home/jona/esp-idf/components/esp_hal_timg/esp32/include/hal/timg_ll.h:
 
 /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 

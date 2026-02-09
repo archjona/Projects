@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader
 
 # Utility rule file for bootloader_check_size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/bootloader_check_size.dir/compiler_depend.make
 include CMakeFiles/bootloader_check_size.dir/progress.make
 
 CMakeFiles/bootloader_check_size:
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/bootloader.bin
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/jona/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/bootloader.bin
 
 CMakeFiles/bootloader_check_size.dir/codegen:
 .PHONY : CMakeFiles/bootloader_check_size.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/bootloader_check_size.dir/clean:
 .PHONY : CMakeFiles/bootloader_check_size.dir/clean
 
 CMakeFiles/bootloader_check_size.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader /home/jona/esp-idf/embedded/GPIO_INPUT/build/bootloader/CMakeFiles/bootloader_check_size.dir/DependInfo.cmake "--color=$(COLOR)" bootloader_check_size
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader /home/jona/esp-idf/Projects/GPIO_INPUT/build/bootloader/CMakeFiles/bootloader_check_size.dir/DependInfo.cmake "--color=$(COLOR)" bootloader_check_size
 .PHONY : CMakeFiles/bootloader_check_size.dir/depend
 

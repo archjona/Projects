@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/GPIO_INPUT/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/GPIO_INPUT/build
 
 # Include any dependencies generated for this target.
 include esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/depend.make
@@ -75,44 +75,44 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/cod
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/flags.make
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj: /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj -MF CMakeFiles/everest.dir/library/everest.c.obj.d -o CMakeFiles/everest.dir/library/everest.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.obj -MF CMakeFiles/everest.dir/library/everest.c.obj.d -o CMakeFiles/everest.dir/library/everest.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/everest.dir/library/everest.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c > CMakeFiles/everest.dir/library/everest.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c > CMakeFiles/everest.dir/library/everest.c.i
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/everest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/everest.dir/library/everest.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c -o CMakeFiles/everest.dir/library/everest.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/everest.c -o CMakeFiles/everest.dir/library/everest.c.s
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/flags.make
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj: /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj -MF CMakeFiles/everest.dir/library/x25519.c.obj.d -o CMakeFiles/everest.dir/library/x25519.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.obj -MF CMakeFiles/everest.dir/library/x25519.c.obj.d -o CMakeFiles/everest.dir/library/x25519.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/everest.dir/library/x25519.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c > CMakeFiles/everest.dir/library/x25519.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c > CMakeFiles/everest.dir/library/x25519.c.i
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/x25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/everest.dir/library/x25519.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c -o CMakeFiles/everest.dir/library/x25519.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/x25519.c -o CMakeFiles/everest.dir/library/x25519.c.s
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/flags.make
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj: /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj -MF CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj.d -o CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj -MF CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj.d -o CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj -c /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.i"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c > CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.i
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c > CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.i
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.s"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c -o CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.s
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/library/Hacl_Curve25519_joined.c -o CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.s
 
 # Object files for target everest
 everest_OBJECTS = \
@@ -128,19 +128,19 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a: esp-idf/mbed
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/build.make
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/embedded/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libeverest.a"
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -P CMakeFiles/everest.dir/cmake_clean_target.cmake
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/everest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jona/esp-idf/Projects/GPIO_INPUT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libeverest.a"
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -P CMakeFiles/everest.dir/cmake_clean_target.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/everest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/build: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/build
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/clean:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -P CMakeFiles/everest.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest && $(CMAKE_COMMAND) -P CMakeFiles/everest.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/clean
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/depend:
-	cd /home/jona/esp-idf/embedded/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/GPIO_INPUT /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest /home/jona/esp-idf/embedded/GPIO_INPUT/build /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest /home/jona/esp-idf/embedded/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/DependInfo.cmake "--color=$(COLOR)" everest
+	cd /home/jona/esp-idf/Projects/GPIO_INPUT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/GPIO_INPUT /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest /home/jona/esp-idf/Projects/GPIO_INPUT/build /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest /home/jona/esp-idf/Projects/GPIO_INPUT/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/DependInfo.cmake "--color=$(COLOR)" everest
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/depend
 
