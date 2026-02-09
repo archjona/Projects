@@ -38,7 +38,7 @@ void app_main(void)
 	gpio_install_isr_service(0); // initialisierung
 	gpio_isr_handler_add(interrupt_pin, gpio_isr_handler, (void*) interrupt_pin); // (void*) wegen typecast 
 	// 1. Pin, 2. Funktion, in die argument geladen wird 3. Argument
-	gpio_intr_enable(interrupt_pin);
+	gpio_intr_enable(interrupt_pin); // enable
 
 	while(1) {
 

@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/LED-FADE_INTERRUPT/build/gdbinit/symbols
+source /home/jona/esp-idf/Projects/LED-FADE_INTERRUPT/build/gdbinit/connect
