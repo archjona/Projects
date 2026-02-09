@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/DAC/build/bootloader/gdbinit/symbols
+source /home/jona/esp-idf/Projects/DAC/build/bootloader/gdbinit/connect

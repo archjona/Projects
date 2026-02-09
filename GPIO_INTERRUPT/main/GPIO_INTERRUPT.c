@@ -18,7 +18,7 @@ volatile bool button_state = false;
 
 static void IRAM_ATTR gpio_isr_handler(void *arg) { //IRAM_ATTR ist makro für speicher im RAM --> schneller
 
-	// gpio_isr_handler_add wird nur wenn ein signal an Pin 5 wahrgenommen wird aufgerufen
+	// gpio_isr_handler wird nur wenn ein signal an Pin 5 wahrgenommen wird aufgerufen
 	// kein if nötig
 
 	interrupt_count++;
@@ -38,6 +38,8 @@ void app_main(void)
 	gpio_install_isr_service(0); // initialisierung
 	gpio_isr_handler_add(interrupt_pin, gpio_isr_handler, (void*) interrupt_pin); // (void*) wegen typecast 
 	// 1. Pin, 2. Funktion, in die argument geladen wird 3. Argument
+	// außerhalb des loops, deswegen sofortige aktivierung, keine nachfrage der cpu (polling)
+	// sodndern interrupt!
 	gpio_intr_enable(interrupt_pin); // enable
 
 	while(1) {

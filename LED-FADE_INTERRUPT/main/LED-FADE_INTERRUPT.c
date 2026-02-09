@@ -10,7 +10,7 @@
 volatile bool button_state = false;
 volatile uint16_t interrupt_count = 0;
 
-static void IRAM_ATTR gpio_isr_handler(void *arg) {
+static void IRAM_ATTR gpio_isr_handler(void *arg) { // existiert nur in dieser Datei
 
 	interrupt_count++;
 	button_state = true;
