@@ -35,7 +35,7 @@ void app_main(void)
 		.speed_mode = LEDC_LOW_SPEED_MODE,
 		.duty_resolution = LEDC_TIMER_8_BIT, // duty werte (0-255 bei 8 bit)
 		.timer_num = LEDC_TIMER_0,
-		.freq_hz = 10000, //frequenz des timers
+		.freq_hz = 10000, //frequenz des timers, wie oft pro sekunde geschaltet wird (man erkennt flackern nicht weil auge nicht checkt)
 		.clk_cfg = LEDC_AUTO_CLK // automatische anpassung an duty resolution, usw.
 
 	};
