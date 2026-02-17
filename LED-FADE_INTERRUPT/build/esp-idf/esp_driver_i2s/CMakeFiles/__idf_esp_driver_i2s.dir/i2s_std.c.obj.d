@@ -111,12 +111,12 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj: \
  /home/jona/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/jona/esp-idf/components/hal/include/hal/hal_utils.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/esp_driver_i2s/include/driver/i2s_std.h \
  /home/jona/esp-idf/components/esp_driver_i2s/include/driver/i2s_common.h \
  /home/jona/esp-idf/components/esp_driver_i2s/include/driver/i2s_types.h \

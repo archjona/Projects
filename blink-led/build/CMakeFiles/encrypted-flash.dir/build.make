@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for encrypted-flash.
 
@@ -87,6 +87,6 @@ CMakeFiles/encrypted-flash.dir/clean:
 .PHONY : CMakeFiles/encrypted-flash.dir/clean
 
 CMakeFiles/encrypted-flash.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-flash
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-flash
 .PHONY : CMakeFiles/encrypted-flash.dir/depend
 

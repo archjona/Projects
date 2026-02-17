@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jona/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build/bootloader
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build/bootloader
 
 # Utility rule file for gen_project_binary.
 
@@ -84,6 +84,6 @@ CMakeFiles/gen_project_binary.dir/clean:
 .PHONY : CMakeFiles/gen_project_binary.dir/clean
 
 CMakeFiles/gen_project_binary.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/embedded/blink-led/build/bootloader /home/jona/esp-idf/embedded/blink-led/build/bootloader /home/jona/esp-idf/embedded/blink-led/build/bootloader/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_project_binary
+	cd /home/jona/esp-idf/Projects/blink-led/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/components/bootloader/subproject /home/jona/esp-idf/Projects/blink-led/build/bootloader /home/jona/esp-idf/Projects/blink-led/build/bootloader /home/jona/esp-idf/Projects/blink-led/build/bootloader/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_project_binary
 .PHONY : CMakeFiles/gen_project_binary.dir/depend
 

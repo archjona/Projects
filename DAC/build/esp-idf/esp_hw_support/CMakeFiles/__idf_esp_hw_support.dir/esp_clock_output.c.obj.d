@@ -100,12 +100,12 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.ob
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
  /home/jona/esp-idf/components/esp_common/include/esp_types.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \

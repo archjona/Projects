@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jona/esp-idf/embedded/blink-led/build/project_elf_src_esp32.c" "CMakeFiles/blink-led.elf.dir/project_elf_src_esp32.c.obj" "gcc" "CMakeFiles/blink-led.elf.dir/project_elf_src_esp32.c.obj.d"
+  "/home/jona/esp-idf/Projects/blink-led/build/project_elf_src_esp32.c" "CMakeFiles/blink-led.elf.dir/project_elf_src_esp32.c.obj" "gcc" "CMakeFiles/blink-led.elf.dir/project_elf_src_esp32.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,7 +1,7 @@
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: \
  /home/jona/esp-idf/components/esp_pm/pm_trace.c \
  /home/jona/esp-idf/components/esp_common/include/esp_attr.h \
- /home/jona/esp-idf/embedded/blink-led/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/blink-led/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
@@ -40,12 +40,12 @@ esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: \
  /home/jona/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/jona/esp-idf/components/esp_pm/include/esp_private/pm_trace.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/interrupts.h \

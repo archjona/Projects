@@ -153,9 +153,9 @@ esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simpl
  /home/jona/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_private/sleep_retention.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_private/esp_clk_tree_common.h \

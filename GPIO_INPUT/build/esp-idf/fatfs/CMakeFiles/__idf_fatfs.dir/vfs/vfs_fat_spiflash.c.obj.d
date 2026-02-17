@@ -61,14 +61,14 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj: \
  /home/jona/esp-idf/components/esp_hal_sd/include/hal/sd_types.h \
  /home/jona/esp-idf/components/esp_driver_sdspi/include/driver/sdspi_host.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
- /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
+ /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/esp_driver_spi/include/driver/spi_master.h \
  /home/jona/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \

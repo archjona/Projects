@@ -1,4 +1,4 @@
-/* * Data converted from /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

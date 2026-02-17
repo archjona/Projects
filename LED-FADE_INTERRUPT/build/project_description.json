@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "LED-FADE_INTERRUPT",
-    "project_version":    "705be729-dirty",
+    "project_version":    "e283598b-dirty",
     "project_path":       "/home/jona/esp-idf/Projects/LED-FADE_INTERRUPT",
     "idf_path":           "/home/jona/esp-idf",
     "build_dir":          "/home/jona/esp-idf/Projects/LED-FADE_INTERRUPT/build",
@@ -11,7 +11,7 @@
     "app_elf":            "LED-FADE_INTERRUPT.elf",
     "app_bin":            "LED-FADE_INTERRUPT.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v6.1-dev-2441-gffb63db38b",
+    "git_revision":       "v6.1-dev-2441-gffb63db38b-dirty",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",

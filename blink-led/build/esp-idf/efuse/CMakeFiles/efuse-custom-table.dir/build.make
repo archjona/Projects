@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for efuse-custom-table.
 
@@ -77,10 +77,10 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build: efuse-custom-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/components/efuse /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/esp-idf/efuse /home/jona/esp-idf/embedded/blink-led/build/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)" efuse-custom-table
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/components/efuse /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/esp-idf/efuse /home/jona/esp-idf/Projects/blink-led/build/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)" efuse-custom-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend
 

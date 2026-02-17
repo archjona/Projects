@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for gen_blink-led_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_blink-led_binary.dir/progress.make
 CMakeFiles/gen_blink-led_binary: .bin_timestamp
 
 .bin_timestamp: blink-led.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/embedded/blink-led/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/embedded/blink-led/build/blink-led.bin /home/jona/esp-idf/embedded/blink-led/build/blink-led.elf
-	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/embedded/blink-led/build/blink-led.bin"
-	/usr/bin/cmake -E md5sum /home/jona/esp-idf/embedded/blink-led/build/blink-led.bin > /home/jona/esp-idf/embedded/blink-led/build/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jona/esp-idf/Projects/blink-led/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/jona/esp-idf/Projects/blink-led/build/blink-led.bin /home/jona/esp-idf/Projects/blink-led/build/blink-led.elf
+	/usr/bin/cmake -E echo "Generated /home/jona/esp-idf/Projects/blink-led/build/blink-led.bin"
+	/usr/bin/cmake -E md5sum /home/jona/esp-idf/Projects/blink-led/build/blink-led.bin > /home/jona/esp-idf/Projects/blink-led/build/.bin_timestamp
 
 CMakeFiles/gen_blink-led_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_blink-led_binary.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/gen_blink-led_binary.dir/clean:
 .PHONY : CMakeFiles/gen_blink-led_binary.dir/clean
 
 CMakeFiles/gen_blink-led_binary.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/CMakeFiles/gen_blink-led_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_blink-led_binary
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/CMakeFiles/gen_blink-led_binary.dir/DependInfo.cmake "--color=$(COLOR)" gen_blink-led_binary
 .PHONY : CMakeFiles/gen_blink-led_binary.dir/depend
 

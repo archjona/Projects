@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for size-files.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size-files.dir/compiler_depend.make
 include CMakeFiles/size-files.dir/progress.make
 
 CMakeFiles/size-files: blink-led.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--files -D MAP_FILE=/home/jona/esp-idf/embedded/blink-led/build/blink-led.map -D OUTPUT_JSON= -P /home/jona/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--files -D MAP_FILE=/home/jona/esp-idf/Projects/blink-led/build/blink-led.map -D OUTPUT_JSON= -P /home/jona/esp-idf/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size-files.dir/codegen:
 .PHONY : CMakeFiles/size-files.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/size-files.dir/clean:
 .PHONY : CMakeFiles/size-files.dir/clean
 
 CMakeFiles/size-files.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/CMakeFiles/size-files.dir/DependInfo.cmake "--color=$(COLOR)" size-files
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/CMakeFiles/size-files.dir/DependInfo.cmake "--color=$(COLOR)" size-files
 .PHONY : CMakeFiles/size-files.dir/depend
 

@@ -1,0 +1,6 @@
+Command: make -j 14 all
+CMake Error at CMakeLists.txt:4:
+  Parse error.  Expected "(", got identifier with text "esp_driver_dac".
+
+
+make: *** [Makefile:2412: cmake_check_build_system] Error 1

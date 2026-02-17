@@ -123,10 +123,10 @@ esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj: \
  /home/jona/esp-idf/components/esp_lcd/include/esp_lcd_panel_dev.h \
  /home/jona/esp-idf/components/esp_lcd/include/esp_lcd_panel_ops.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/log/include/esp_log.h \
  /home/jona/esp-idf/components/log/include/esp_log_config.h \
  /home/jona/esp-idf/components/log/include/esp_log_level.h \

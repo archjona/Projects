@@ -50,12 +50,12 @@ esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj: \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
  /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_driver_rmt/include/driver/rmt_tx.h \
  /home/jona/esp-idf/components/esp_driver_rmt/include/driver/rmt_common.h \
  /home/jona/esp-idf/components/esp_driver_rmt/include/driver/rmt_types.h \

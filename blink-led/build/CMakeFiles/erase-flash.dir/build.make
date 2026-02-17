@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for erase-flash.
 
@@ -85,6 +85,6 @@ CMakeFiles/erase-flash.dir/clean:
 .PHONY : CMakeFiles/erase-flash.dir/clean
 
 CMakeFiles/erase-flash.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/CMakeFiles/erase-flash.dir/DependInfo.cmake "--color=$(COLOR)" erase-flash
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/CMakeFiles/erase-flash.dir/DependInfo.cmake "--color=$(COLOR)" erase-flash
 .PHONY : CMakeFiles/erase-flash.dir/depend
 

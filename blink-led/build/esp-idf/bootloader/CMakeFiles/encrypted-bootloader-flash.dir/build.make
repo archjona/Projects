@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for encrypted-bootloader-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/compiler_de
 include esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash:
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E echo "Error: The target encrypted-bootloader-flash requires"
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/jona/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E echo "Error: The target encrypted-bootloader-flash requires"
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/jona/esp-idf/tools/cmake/scripts/fail.cmake
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/codegen:
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/codegen
@@ -83,10 +83,10 @@ esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build: encrypted-bo
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean:
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-bootloader-flash.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-bootloader-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/components/bootloader /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader /home/jona/esp-idf/embedded/blink-led/build/esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-bootloader-flash
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/components/bootloader /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader /home/jona/esp-idf/Projects/blink-led/build/esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)" encrypted-bootloader-flash
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend
 

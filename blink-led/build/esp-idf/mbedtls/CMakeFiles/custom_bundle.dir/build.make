@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for custom_bundle.
 
@@ -77,10 +77,10 @@ esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build: custom_bundle
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean:
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/custom_bundle.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean
 
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/components/mbedtls /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)" custom_bundle
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/components/mbedtls /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/DependInfo.cmake "--color=$(COLOR)" custom_bundle
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend
 

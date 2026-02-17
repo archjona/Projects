@@ -68,12 +68,12 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj: \
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/uart_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_hal.h \
  /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/hal/gpio_ll.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/gpio_struct.h \

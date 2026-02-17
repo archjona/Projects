@@ -1,2 +1,2 @@
-source /home/jona/esp-idf/embedded/blink-led/build/gdbinit/symbols
-source /home/jona/esp-idf/embedded/blink-led/build/gdbinit/connect
+source /home/jona/esp-idf/Projects/blink-led/build/gdbinit/symbols
+source /home/jona/esp-idf/Projects/blink-led/build/gdbinit/connect

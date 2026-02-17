@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/jona/esp-idf/embedded/blink-led/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
+  "/home/jona/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/jona/esp-idf/Projects/blink-led/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "BOOTLOADER_BUILD=1"
   "ESP_PLATFORM"
-  "IDF_VER=\"v6.1-dev-2441-gffb63db38b\""
+  "IDF_VER=\"v6.1-dev-2441-gffb63db38b-dirty\""
   "NON_OS_BUILD=1"
   "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
   "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"

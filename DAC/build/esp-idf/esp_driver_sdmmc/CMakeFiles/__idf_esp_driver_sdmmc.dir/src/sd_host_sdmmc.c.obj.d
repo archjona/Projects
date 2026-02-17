@@ -107,10 +107,10 @@ esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc
  /home/jona/esp-idf/components/esp_common/include/esp_types.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
  /home/jona/esp-idf/components/esp_driver_sdmmc/include/esp_private/sd_host_private.h \
  /home/jona/esp-idf/components/esp_pm/include/esp_pm.h \
  /home/jona/esp-idf/components/esp_mm/include/esp_cache.h \

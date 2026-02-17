@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/embedded/blink-led/build/x509_crt_bundle.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj"
+  "/home/jona/esp-idf/Projects/blink-led/build/x509_crt_bundle.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "ESP_PLATFORM"
   "ESP_PSA_ITS_AVAILABLE"
-  "IDF_VER=\"v6.1-dev-2441-gffb63db38b\""
+  "IDF_VER=\"v6.1-dev-2441-gffb63db38b-dirty\""
   "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
   "MBEDTLS_MAJOR_VERSION=4"
   "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"

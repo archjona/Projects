@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /home/jona/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /home/jona/esp-idf/embedded/blink-led/build/bootloader/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/blink-led/build/bootloader/config/sdkconfig.h \
  /home/jona/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \

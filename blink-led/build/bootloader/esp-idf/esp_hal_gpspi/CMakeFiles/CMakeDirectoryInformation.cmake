@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/jona/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jona/esp-idf/embedded/blink-led/build/bootloader")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jona/esp-idf/Projects/blink-led/build/bootloader")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

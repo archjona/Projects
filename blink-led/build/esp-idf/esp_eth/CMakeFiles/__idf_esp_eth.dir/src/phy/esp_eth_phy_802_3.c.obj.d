@@ -9,7 +9,7 @@ esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj: \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
- /home/jona/esp-idf/embedded/blink-led/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/blink-led/build/config/sdkconfig.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
@@ -79,13 +79,13 @@ esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj: \
  /home/jona/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/jona/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/jona/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \

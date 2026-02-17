@@ -1,6 +1,6 @@
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: \
  /home/jona/esp-idf/components/driver/twai/twai.c \
- /home/jona/esp-idf/embedded/blink-led/build/config/sdkconfig.h \
+ /home/jona/esp-idf/Projects/blink-led/build/config/sdkconfig.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
@@ -124,12 +124,12 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: \
  /home/jona/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h \
  /home/jona/esp-idf/components/driver/twai/include/driver/twai_types_legacy.h \
  /home/jona/esp-idf/components/esp_hal_twai/include/hal/twai_types.h \

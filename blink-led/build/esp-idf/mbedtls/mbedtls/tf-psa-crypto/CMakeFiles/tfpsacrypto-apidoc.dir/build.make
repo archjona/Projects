@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for tfpsacrypto-apidoc.
 
@@ -81,10 +81,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build: t
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean:
-	cd /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
+	cd /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/jona/esp-idf/embedded/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)" tfpsacrypto-apidoc
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/jona/esp-idf/Projects/blink-led/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)" tfpsacrypto-apidoc
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend
 

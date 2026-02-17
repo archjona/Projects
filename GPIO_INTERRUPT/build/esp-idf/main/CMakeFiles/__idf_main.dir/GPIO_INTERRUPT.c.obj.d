@@ -99,12 +99,12 @@ esp-idf/main/CMakeFiles/__idf_main.dir/GPIO_INTERRUPT.c.obj: \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
- /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
+ /home/jona/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
  /home/jona/esp-idf/components/log/include/esp_log.h \
  /home/jona/esp-idf/components/log/include/esp_log_config.h \
  /home/jona/esp-idf/components/log/include/esp_log_level.h \

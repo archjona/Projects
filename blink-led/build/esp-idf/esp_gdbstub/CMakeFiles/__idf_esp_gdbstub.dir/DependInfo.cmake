@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj"
-  "/home/jona/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj"
+  "/home/jona/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj"
+  "/home/jona/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "ESP_PLATFORM"
-  "IDF_VER=\"v6.1-dev-2441-gffb63db38b\""
+  "IDF_VER=\"v6.1-dev-2441-gffb63db38b-dirty\""
   "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
   "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
   "_GLIBCXX_HAVE_POSIX_SEMAPHORE"

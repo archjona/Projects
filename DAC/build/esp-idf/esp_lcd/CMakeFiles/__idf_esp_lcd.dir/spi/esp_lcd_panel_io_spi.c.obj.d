@@ -60,11 +60,11 @@ esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj: \
  /home/jona/esp-idf/components/esp_driver_parlio/include/driver/parlio_types.h \
  /home/jona/esp-idf/components/esp_hal_parlio/include/hal/parlio_types.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
+ /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
+ /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/jona/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /home/jona/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/jona/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
  /home/jona/esp-idf/components/esp_common/include/esp_types.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \

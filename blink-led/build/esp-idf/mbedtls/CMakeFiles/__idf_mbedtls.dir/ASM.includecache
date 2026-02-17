@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/jona/esp-idf/embedded/blink-led/build/x509_crt_bundle.S
+/home/jona/esp-idf/Projects/blink-led/build/x509_crt_bundle.S
 

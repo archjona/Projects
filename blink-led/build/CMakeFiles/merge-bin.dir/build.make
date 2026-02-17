@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jona/esp-idf/embedded/blink-led
+CMAKE_SOURCE_DIR = /home/jona/esp-idf/Projects/blink-led
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jona/esp-idf/embedded/blink-led/build
+CMAKE_BINARY_DIR = /home/jona/esp-idf/Projects/blink-led/build
 
 # Utility rule file for merge-bin.
 
@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin:
-	cd /home/jona/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "SERIAL_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esptool;--chip;esp32" -D "SERIAL_TOOL_ARGS=merge-bin;-o;/home/jona/esp-idf/embedded/blink-led/build/merged-binary.bin;@/home/jona/esp-idf/embedded/blink-led/build/flash_args" -D WORKING_DIRECTORY=/home/jona/esp-idf/embedded/blink-led/build -P run_serial_tool.cmake
+	cd /home/jona/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/jona/esp-idf -D "SERIAL_TOOL=/home/jona/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esptool;--chip;esp32" -D "SERIAL_TOOL_ARGS=merge-bin;-o;/home/jona/esp-idf/Projects/blink-led/build/merged-binary.bin;@/home/jona/esp-idf/Projects/blink-led/build/flash_args" -D WORKING_DIRECTORY=/home/jona/esp-idf/Projects/blink-led/build -P run_serial_tool.cmake
 
 CMakeFiles/merge-bin.dir/codegen:
 .PHONY : CMakeFiles/merge-bin.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/merge-bin.dir/clean:
 .PHONY : CMakeFiles/merge-bin.dir/clean
 
 CMakeFiles/merge-bin.dir/depend:
-	cd /home/jona/esp-idf/embedded/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build /home/jona/esp-idf/embedded/blink-led/build/CMakeFiles/merge-bin.dir/DependInfo.cmake "--color=$(COLOR)" merge-bin
+	cd /home/jona/esp-idf/Projects/blink-led/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build /home/jona/esp-idf/Projects/blink-led/build/CMakeFiles/merge-bin.dir/DependInfo.cmake "--color=$(COLOR)" merge-bin
 .PHONY : CMakeFiles/merge-bin.dir/depend
 

@@ -8,19 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj"
-  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj"
-  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj"
-  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj"
-  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj"
-  "/home/jona/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S" "/home/jona/esp-idf/embedded/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj"
+  "/home/jona/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S" "/home/jona/esp-idf/Projects/blink-led/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "ESP_PLATFORM"
-  "IDF_VER=\"v6.1-dev-2441-gffb63db38b\""
+  "IDF_VER=\"v6.1-dev-2441-gffb63db38b-dirty\""
   "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
   "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
   "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
