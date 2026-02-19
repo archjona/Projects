@@ -25465,7 +25465,7 @@ LOAD /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-e
                                   0x4 (size before relaxing)
  .literal.app_main
                 0x400d077c        0x0 esp-idf/main/libmain.a(DAC.c.obj)
-                                  0xc (size before relaxing)
+                                 0x10 (size before relaxing)
  .literal.dac_ll_cw_set_dc_offset
                 0x400d077c        0x4 esp-idf/esp_driver_dac/libesp_driver_dac.a(dac_cosine.c.obj)
                                   0x8 (size before relaxing)
