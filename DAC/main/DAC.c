@@ -12,7 +12,7 @@ void app_main(void) {
 
   dac_cosine_config_t config = {
       .chan_id = DAC_CHAN_0, // GPIO 25
-      .freq_hz = 10000,
+      .freq_hz = 500,
       .clk_src = DAC_COSINE_CLK_SRC_DEFAULT,
       .atten = DAC_COSINE_ATTEN_DEFAULT,
       .phase = DAC_COSINE_PHASE_0,

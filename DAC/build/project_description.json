@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "DAC",
-    "project_version":    "632eee6e-dirty",
+    "project_version":    "687542c9-dirty",
     "project_path":       "/home/jona/esp-idf/Projects/DAC",
     "idf_path":           "/home/jona/esp-idf",
     "build_dir":          "/home/jona/esp-idf/Projects/DAC/build",

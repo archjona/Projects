@@ -1,0 +1,37 @@
+Command: make -j 14 all
+Configuration Report                                                                                                                       
+ ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+   Parser Version: 1                                                                                                                       
+   Verbosity: default                                                                                                                      
+   Defaults policy: sdkconfig                                                                                                              
+   Status: Finished with notifications                                                                                                     
+                                                                                                                                           
+  Default Value Mismatch                                                                                                                   
+   ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────   
+    Using sdkconfig default values                                                                                                         
+    Choice symbols with different default selection between sdkconfig and Kconfig                                                          
+    LIBC_STDOUT_LINE_ENDING: Kconfig default selection: choice deselected, sdkconfig default selection: LIBC_STDOUT_LINE_ENDING_CRLF       
+    LIBC_STDIN_LINE_ENDING: Kconfig default selection: choice deselected, sdkconfig default selection: LIBC_STDIN_LINE_ENDING_CR           
+   ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────   
+ ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+/home/jona/esp-idf/Projects/UART/main/UART.c: In function 'app_main':
+/home/jona/esp-idf/Projects/UART/main/UART.c:43:3: error: expected ',' or ';' before 'uart_param_config'
+   43 |   uart_param_config(UART_PORT, &uart_config);
+      |   ^~~~~~~~~~~~~~~~~
+/home/jona/esp-idf/Projects/UART/main/UART.c:63:16: error: 'uart_event_t' has no member named 't'
+   63 |       if (event.t == UART_DATA) { // runtime checkt dass es UART_DATA als event
+      |                ^
+/home/jona/esp-idf/Projects/UART/main/UART.c:67:46: error: passing argument 2 of 'uart_read_bytes' discards 'const' qualifier from pointer target type [-Werror=discarded-qualifiers]
+   67 |         int num = uart_read_bytes(UART_PORT, &uart_buffersize, event.size,
+      |                                              ^~~~~~~~~~~~~~~~
+In file included from /home/jona/esp-idf/Projects/UART/main/UART.c:1:
+/home/jona/esp-idf/components/esp_driver_uart/include/driver/uart.h:591:49: note: expected 'void *' but argument is of type 'const int *'
+  591 | int uart_read_bytes(uart_port_t uart_num, void* buf, uint32_t length, uint32_t ticks_to_wait);
+      |                                           ~~~~~~^~~
+/home/jona/esp-idf/Projects/UART/main/UART.c:30:17: warning: unused variable 'uart_config' [-Wunused-variable]
+   30 |   uart_config_t uart_config =
+      |                 ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/UART.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:8889: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/UART/build/gdbinit/symbols
+source /home/jona/esp-idf/Projects/UART/build/gdbinit/connect

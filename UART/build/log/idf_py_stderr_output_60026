@@ -1,0 +1,31 @@
+Command: make -j 14 all
+/home/jona/esp-idf/Projects/UART/main/UART.c: In function 'app_main':
+/home/jona/esp-idf/Projects/UART/main/UART.c:47:23: error: pointer targets in initialization of 'char *' from 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Werror=pointer-sign]
+   47 |           char *key = data;
+      |                       ^~~~
+/home/jona/esp-idf/Projects/UART/main/UART.c:49:19: error: comparison between pointer and integer [-Werror]
+   49 |           if (key == '1') {
+      |                   ^~
+/home/jona/esp-idf/Projects/UART/main/UART.c:50:28: error: 'LED_ONBOARD' undeclared (first use in this function)
+   50 |             gpio_set_level(LED_ONBOARD, 1);
+      |                            ^~~~~~~~~~~
+/home/jona/esp-idf/Projects/UART/main/UART.c:50:28: note: each undeclared identifier is reported only once for each function it appears in
+/home/jona/esp-idf/Projects/UART/main/UART.c:52:33: error: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Werror=format=]
+   52 |             printf("Empfangen: %c -> LED AN\n", key);
+      |                                ~^               ~~~
+      |                                 |               |
+      |                                 int             char *
+      |                                %s
+/home/jona/esp-idf/Projects/UART/main/UART.c:53:26: error: comparison between pointer and integer [-Werror]
+   53 |           } else if (key == '0') {
+      |                          ^~
+/home/jona/esp-idf/Projects/UART/main/UART.c:56:33: error: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Werror=format=]
+   56 |             printf("Empfangen: %c -> LED AUS\n", key);
+      |                                ~^                ~~~
+      |                                 |                |
+      |                                 int              char *
+      |                                %s
+cc1: all warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/UART.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:8889: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
