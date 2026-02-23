@@ -115,9 +115,9 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_consol
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/uart_pins.h \
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart.h \
+ /home/jona/esp-idf/components/esp_common/include/esp_check.h \
  /home/jona/esp-idf/components/esp_hal_uart/include/hal/uart_types.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /home/jona/esp-idf/components/esp_common/include/esp_check.h \
  /home/jona/esp-idf/components/protocomm/include/common/protocomm.h \
  /home/jona/esp-idf/components/protocomm/include/security/protocomm_security.h \
  /home/jona/esp-idf/components/esp_event/include/esp_event.h \

@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/I2C/build/bootloader/gdbinit/symbols
+source /home/jona/esp-idf/Projects/I2C/build/bootloader/gdbinit/connect

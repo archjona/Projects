@@ -1,0 +1,44 @@
+Command: make -j 14 all
+/home/jona/esp-idf/Projects/I2C/main/I2C.c: In function 'app_main':
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:40:3: error: 'esp_bus_ret' undeclared (first use in this function)
+   40 |   esp_bus_ret =
+      |   ^~~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:40:3: note: each undeclared identifier is reported only once for each function it appears in
+In file included from /home/jona/esp-idf/components/esp_driver_i2c/include/driver/i2c_master.h:10,
+                 from /home/jona/esp-idf/Projects/I2C/main/I2C.c:4:
+/home/jona/esp-idf/components/esp_common/include/esp_err.h:115:28: error: expected expression before 'do'
+  115 | #define ESP_ERROR_CHECK(x) do {                                         \
+      |                            ^~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:41:7: note: in expansion of macro 'ESP_ERROR_CHECK'
+   41 |       ESP_ERROR_CHECK(i2c_new_master_bus(&i2c_master_bus_config, &bus_handle));
+      |       ^~~~~~~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:57:3: error: 'esp_dev_ret' undeclared (first use in this function); did you mean 'esp_err_t'?
+   57 |   esp_dev_ret = ESP_ERROR_CHECK(
+      |   ^~~~~~~~~~~
+      |   esp_err_t
+/home/jona/esp-idf/components/esp_common/include/esp_err.h:115:28: error: expected expression before 'do'
+  115 | #define ESP_ERROR_CHECK(x) do {                                         \
+      |                            ^~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:57:17: note: in expansion of macro 'ESP_ERROR_CHECK'
+   57 |   esp_dev_ret = ESP_ERROR_CHECK(
+      |                 ^~~~~~~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:55:27: warning: unused variable 'dev_handle' [-Wunused-variable]
+   55 |   i2c_master_dev_handle_t dev_handle;
+      |                           ^~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:47:23: warning: unused variable 'dev_cfg' [-Wunused-variable]
+   47 |   i2c_device_config_t dev_cfg = {
+      |                       ^~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:38:27: warning: unused variable 'bus_handle' [-Wunused-variable]
+   38 |   i2c_master_bus_handle_t bus_handle;
+      |                           ^~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:28:27: warning: unused variable 'i2c_master_bus_config' [-Wunused-variable]
+   28 |   i2c_master_bus_config_t i2c_master_bus_config = {
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+/home/jona/esp-idf/Projects/I2C/main/I2C.c: At top level:
+/home/jona/esp-idf/Projects/I2C/main/I2C.c:17:18: error: 'intr_priority' defined but not used [-Werror=unused-const-variable=]
+   17 | static const int intr_priority = 1; // interrupt priority
+      |                  ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/I2C.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:8889: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

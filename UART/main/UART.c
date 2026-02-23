@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Wir nehmen UART_NUM_0, weil das der USB-Port ist!
+// Wir nehmen UART_NUM_0, weil das der USB-Port ist
 #define UART_PORT UART_NUM_0
 #define BUF_SIZE (1024)
 #define LED_EXTERNAL 25
@@ -35,7 +35,7 @@ void app_main(void) {
   printf("Druecke '1' fuer AN, '0' fuer AUS\n");
 
   uint8_t data[BUF_SIZE];
-  uart_event_t event; // wird automatisch ald DATA event aufgerufen ohne
+  uart_event_t event; // wird automatisch als DATA event aufgerufen ohne
                       // voreinstellung wenn ein byte ankommt
 
   while (1) {

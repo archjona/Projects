@@ -56,12 +56,29 @@ esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj:
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart_vfs.h \
  /home/jona/esp-idf/components/vfs/include/esp_vfs_common.h \
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart.h \
+ /home/jona/esp-idf/components/esp_common/include/esp_check.h \
  /home/jona/esp-idf/components/esp_common/include/esp_err.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/stdio.h \
  /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
  /home/jona/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/jona/esp-idf/components/log/include/esp_log.h \
+ /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
+ /home/jona/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /home/jona/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /home/jona/esp-idf/components/log/include/esp_log_config.h \
+ /home/jona/esp-idf/components/log/include/esp_log_level.h \
+ /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/jona/esp-idf/components/log/include/esp_log_color.h \
+ /home/jona/esp-idf/components/log/include/esp_log_buffer.h \
+ /home/jona/esp-idf/components/log/include/esp_log_timestamp.h \
+ /home/jona/esp-idf/components/log/include/esp_log_write.h \
+ /home/jona/esp-idf/components/log/include/esp_log_format.h \
+ /home/jona/esp-idf/components/log/include/esp_log_args.h \
+ /home/jona/esp-idf/components/esp_common/include/esp_macros.h \
+ /home/jona/esp-idf/components/log/include/esp_log_attr.h \
+ /home/jona/esp-idf/components/log/include/esp_private/log_attr.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/jona/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/jona/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -95,18 +112,13 @@ esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj:
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/jona/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
- /home/jona/esp-idf/components/esp_common/include/esp_macros.h \
  /home/jona/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/jona/esp-idf/components/esp_common/include/esp_assert.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/jona/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /home/jona/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
  /home/jona/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/jona/esp-idf/components/heap/include/multi_heap.h \
- /home/jona/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/jona/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
- /home/jona/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/jona/esp-idf/components/esp_system/include/esp_system.h \
  /home/jona/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
@@ -127,18 +139,6 @@ esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj:
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/jona/esp-idf/components/esp_hal_uart/include/hal/uart_types.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /home/jona/esp-idf/components/esp_common/include/esp_check.h \
- /home/jona/esp-idf/components/log/include/esp_log.h \
- /home/jona/esp-idf/components/log/include/esp_log_config.h \
- /home/jona/esp-idf/components/log/include/esp_log_level.h \
- /home/jona/esp-idf/components/log/include/esp_log_color.h \
- /home/jona/esp-idf/components/log/include/esp_log_buffer.h \
- /home/jona/esp-idf/components/log/include/esp_log_timestamp.h \
- /home/jona/esp-idf/components/log/include/esp_log_write.h \
- /home/jona/esp-idf/components/log/include/esp_log_format.h \
- /home/jona/esp-idf/components/log/include/esp_log_args.h \
- /home/jona/esp-idf/components/log/include/esp_log_attr.h \
- /home/jona/esp-idf/components/log/include/esp_private/log_attr.h \
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart_select.h \
  /home/jona/esp-idf/components/esp_rom/include/esp_rom_serial_output.h \
  /home/jona/esp-idf/components/esp_hal_uart/esp32/include/hal/uart_ll.h \

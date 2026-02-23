@@ -133,9 +133,9 @@ esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj: \
  /home/jona/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/uart_pins.h \
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart.h \
+ /home/jona/esp-idf/components/esp_common/include/esp_check.h \
  /home/jona/esp-idf/components/esp_hal_uart/include/hal/uart_types.h \
  /home/jona/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /home/jona/esp-idf/components/esp_common/include/esp_check.h \
  /home/jona/esp-idf/components/esp_driver_uart/include/driver/uart_vfs.h \
  /home/jona/esp-idf/components/vfs/include/esp_vfs_common.h \
  /home/jona/esp-idf/components/esp_driver_usb_serial_jtag/include/driver/usb_serial_jtag.h \
