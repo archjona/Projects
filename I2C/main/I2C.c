@@ -108,7 +108,15 @@ void app_main(void) {
 
   reg = 0xE1; // Hum H2..H6
   i2c_master_transmit_receive(dev_handle, &reg, 1, h_cal_part2, 7, -1);
-  cal.dig_H2 = (int16_t)((h_cal_part2[1] << 8) | h_cal_part2[0]);
+  cal.dig_H2 =
+      (int16_t)((h_cal_part2[1] << 8) |
+                h_cal_part2[0]); // bei dem leftshit um 8 fallen die bits nicht
+                                 // weg sondern es kommt zur integer promotion;
+                                 // C macht das automatisch wenn bei einem shift
+                                 // die bits sonst rausfallen würden, so wird zu
+                                 // einem int32_t gecasted, weshalb der typecast
+                                 // außerhalb der Bit operationen ausgeführt
+                                 // wird
   cal.dig_H3 = h_cal_part2[2];
   cal.dig_H4 = (int16_t)((h_cal_part2[3] << 4) | (h_cal_part2[4] & 0x0F));
   // 0x0F (0000 1111) wird als bit mask verwendet, weil H4 aus 12 Bits besteht
