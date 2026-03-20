@@ -74,11 +74,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/esp_hal_dma/cmake_install.cmake")
 endif()
 
@@ -129,6 +124,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/esp_hal_timg/cmake_install.cmake")
 endif()
 
@@ -175,6 +175,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/efuse/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/esp_hal_systimer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -3,4 +3,4 @@
 -fno-builtin-memcpy
 -fno-builtin-memset
 -fno-builtin-bzero
--specs=picolibc.specs
+"-specs=/home/jona/esp-idf/Projects/I2C/build/specs/picolibc.specs"

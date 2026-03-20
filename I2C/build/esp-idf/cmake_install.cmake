@@ -244,6 +244,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_hal_systimer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_hal_touch_sens/cmake_install.cmake")
 endif()
 

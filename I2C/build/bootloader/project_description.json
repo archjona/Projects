@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "bootloader",
-    "project_version":    "v6.1-dev-2441-gffb63db38b-dirty",
+    "project_version":    "v6.1-dev-2938-g12f36a021f",
     "project_path":       "/home/jona/esp-idf/components/bootloader/subproject",
     "idf_path":           "/home/jona/esp-idf",
     "build_dir":          "/home/jona/esp-idf/Projects/I2C/build/bootloader",
@@ -11,7 +11,7 @@
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v6.1-dev-2441-gffb63db38b-dirty",
+    "git_revision":       "v6.1-dev-2938-g12f36a021f",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/jona/esp-idf/components/bootloader/Kconfig.projbuild;/home/jona/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/jona/esp-idf/components/esp_rom/Kconfig.projbuild;/home/jona/esp-idf/components/esptool_py/Kconfig.projbuild;/home/jona/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "log", "esp_rom", "esp_common", "esp_hw_support", "esp_libc", "xtensa" ],
-    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_common", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2s", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_timg", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "/home/jona/esp-idf/components/bootloader", "/home/jona/esp-idf/components/bootloader_support", "/home/jona/esp-idf/components/efuse", "/home/jona/esp-idf/components/esp_app_format", "/home/jona/esp-idf/components/esp_blockdev", "/home/jona/esp-idf/components/esp_bootloader_format", "/home/jona/esp-idf/components/esp_common", "/home/jona/esp-idf/components/esp_hal_ana_conv", "/home/jona/esp-idf/components/esp_hal_clock", "/home/jona/esp-idf/components/esp_hal_dma", "/home/jona/esp-idf/components/esp_hal_gpio", "/home/jona/esp-idf/components/esp_hal_gpspi", "/home/jona/esp-idf/components/esp_hal_i2s", "/home/jona/esp-idf/components/esp_hal_mspi", "/home/jona/esp-idf/components/esp_hal_pmu", "/home/jona/esp-idf/components/esp_hal_rtc_timer", "/home/jona/esp-idf/components/esp_hal_security", "/home/jona/esp-idf/components/esp_hal_timg", "/home/jona/esp-idf/components/esp_hal_uart", "/home/jona/esp-idf/components/esp_hal_usb", "/home/jona/esp-idf/components/esp_hal_wdt", "/home/jona/esp-idf/components/esp_hw_support", "/home/jona/esp-idf/components/esp_libc", "/home/jona/esp-idf/components/esp_rom", "/home/jona/esp-idf/components/esp_security", "/home/jona/esp-idf/components/esp_stdio", "/home/jona/esp-idf/components/esp_system", "/home/jona/esp-idf/components/esptool_py", "/home/jona/esp-idf/components/freertos", "/home/jona/esp-idf/components/hal", "/home/jona/esp-idf/components/log", "/home/jona/esp-idf/components/bootloader/subproject/main", "/home/jona/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/jona/esp-idf/components/partition_table", "/home/jona/esp-idf/components/soc", "/home/jona/esp-idf/components/spi_flash", "/home/jona/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_common", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2s", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/jona/esp-idf/components/bootloader", "/home/jona/esp-idf/components/bootloader_support", "/home/jona/esp-idf/components/efuse", "/home/jona/esp-idf/components/esp_app_format", "/home/jona/esp-idf/components/esp_blockdev", "/home/jona/esp-idf/components/esp_bootloader_format", "/home/jona/esp-idf/components/esp_common", "/home/jona/esp-idf/components/esp_hal_ana_conv", "/home/jona/esp-idf/components/esp_hal_clock", "/home/jona/esp-idf/components/esp_hal_dma", "/home/jona/esp-idf/components/esp_hal_gpio", "/home/jona/esp-idf/components/esp_hal_gpspi", "/home/jona/esp-idf/components/esp_hal_i2s", "/home/jona/esp-idf/components/esp_hal_mspi", "/home/jona/esp-idf/components/esp_hal_pmu", "/home/jona/esp-idf/components/esp_hal_rtc_timer", "/home/jona/esp-idf/components/esp_hal_security", "/home/jona/esp-idf/components/esp_hal_systimer", "/home/jona/esp-idf/components/esp_hal_timg", "/home/jona/esp-idf/components/esp_hal_uart", "/home/jona/esp-idf/components/esp_hal_usb", "/home/jona/esp-idf/components/esp_hal_wdt", "/home/jona/esp-idf/components/esp_hw_support", "/home/jona/esp-idf/components/esp_libc", "/home/jona/esp-idf/components/esp_rom", "/home/jona/esp-idf/components/esp_security", "/home/jona/esp-idf/components/esp_stdio", "/home/jona/esp-idf/components/esp_system", "/home/jona/esp-idf/components/esptool_py", "/home/jona/esp-idf/components/freertos", "/home/jona/esp-idf/components/hal", "/home/jona/esp-idf/components/log", "/home/jona/esp-idf/components/bootloader/subproject/main", "/home/jona/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/jona/esp-idf/components/partition_table", "/home/jona/esp-idf/components/soc", "/home/jona/esp-idf/components/spi_flash", "/home/jona/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "bootloader": {
             "alias": "idf::bootloader",
@@ -51,7 +51,7 @@
             "type": "LIBRARY",
             "lib": "__idf_bootloader_support",
             "reqs": [ "soc" ],
-            "priv_reqs": [ "micro-ecc", "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "esptool_py", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_security" ],
+            "priv_reqs": [ "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "esptool_py", "micro-ecc", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/bootloader_support/libbootloader_support.a",
@@ -283,6 +283,21 @@
             "sources": [ "/home/jona/esp-idf/components/esp_hal_security/mpu_hal.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
+        "esp_hal_systimer": {
+            "alias": "idf::esp_hal_systimer",
+            "target": "___idf_esp_hal_systimer",
+            "prefix": "idf",
+            "dir": "/home/jona/esp-idf/components/esp_hal_systimer",
+            "type": "CONFIG_ONLY",
+            "lib": "__idf_esp_hal_systimer",
+            "reqs": [ "soc", "hal", "esp_rom" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "include" ]
+        },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
             "target": "___idf_esp_hal_timg",
@@ -351,7 +366,7 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "esp_hal_gpio", "esp_hal_usb", "esp_hal_pmu" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_system" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_hal_systimer", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a",
@@ -632,7 +647,7 @@
             "source": "idf_components",
             "lib": "__idf_bootloader_support",
             "reqs": [ "soc" ],
-            "priv_reqs": [ "micro-ecc", "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "esptool_py", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_security" ],
+            "priv_reqs": [ "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "esptool_py", "micro-ecc", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include", "bootloader_flash/include", "private_include" ]
@@ -866,7 +881,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_dma",
             "reqs": [ "esp_hal_dma" ],
-            "priv_reqs": [ "esp_mm" ],
+            "priv_reqs": [ "esp_mm", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1022,7 +1037,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_ppa",
             "reqs": [ "esp_hal_ppa" ],
-            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma" ],
+            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1547,6 +1562,19 @@
             "managed_priv_reqs": [],
             "include_dirs": [ "esp32/include", "include" ]
         },
+        "esp_hal_systimer": {
+            "alias": "idf::esp_hal_systimer",
+            "target": "___idf_esp_hal_systimer",
+            "prefix": "idf",
+            "dir": "/home/jona/esp-idf/components/esp_hal_systimer",
+            "source": "idf_components",
+            "lib": "__idf_esp_hal_systimer",
+            "reqs": [ "soc", "hal", "esp_rom" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
             "target": "___idf_esp_hal_timg",
@@ -1671,8 +1699,8 @@
             "dir": "/home/jona/esp-idf/components/esp_https_ota",
             "source": "idf_components",
             "lib": "__idf_esp_https_ota",
-            "reqs": [ "esp_http_client", "bootloader_support", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
-            "priv_reqs": [ "log", "app_update" ],
+            "reqs": [ "esp_http_client", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
+            "priv_reqs": [ "log", "app_update", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1698,7 +1726,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "esp_hal_gpio", "esp_hal_usb", "esp_hal_pmu" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_system" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_hal_systimer", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include" ]
@@ -1789,7 +1817,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_partition",
             "reqs": [ "esp_blockdev", "spi_flash" ],
-            "priv_reqs": [ "bootloader_support" ],
+            "priv_reqs": [ "bootloader_support", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1831,7 +1859,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "include", "device/include" ]
         },
         "esp_ringbuf": {
             "alias": "idf::esp_ringbuf",
@@ -1919,7 +1947,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_timer",
             "reqs": [],
-            "priv_reqs": [ "esp_hal_timg" ],
+            "priv_reqs": [ "esp_hal_timg", "esp_hal_systimer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1932,7 +1960,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_trace",
             "reqs": [ "app_trace" ],
-            "priv_reqs": [ "esp_driver_gptimer" ],
+            "priv_reqs": [ "esp_driver_gptimer", "esp_hal_usb", "esp_driver_usb_serial_jtag", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -1971,7 +1999,7 @@
             "source": "idf_components",
             "lib": "__idf_espcoredump",
             "reqs": [],
-            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security" ],
+            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": []

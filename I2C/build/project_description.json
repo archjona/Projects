@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "I2C",
-    "project_version":    "8145130b-dirty",
+    "project_version":    "f5e844cc-dirty",
     "project_path":       "/home/jona/esp-idf/Projects/I2C",
     "idf_path":           "/home/jona/esp-idf",
     "build_dir":          "/home/jona/esp-idf/Projects/I2C/build",
@@ -11,7 +11,7 @@
     "app_elf":            "I2C.elf",
     "app_bin":            "I2C.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v6.1-dev-2441-gffb63db38b-dirty",
+    "git_revision":       "v6.1-dev-2938-g12f36a021f",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/jona/esp-idf/components/bootloader/Kconfig.projbuild;/home/jona/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/jona/esp-idf/components/esp_rom/Kconfig.projbuild;/home/jona/esp-idf/components/esptool_py/Kconfig.projbuild;/home/jona/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_dma", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_i3c", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sd_intf", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ana_cmpr", "esp_hal_ana_conv", "esp_hal_cam", "esp_hal_clock", "esp_hal_dma", "esp_hal_emac", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2c", "esp_hal_i2s", "esp_hal_i3c", "esp_hal_ieee802154", "esp_hal_jpeg", "esp_hal_lcd", "esp_hal_ledc", "esp_hal_mcpwm", "esp_hal_mspi", "esp_hal_parlio", "esp_hal_pcnt", "esp_hal_pmu", "esp_hal_ppa", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_sd", "esp_hal_security", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_twai", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_libc", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_trace", "esp_usb_cdc_rom_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "ieee802154", "log", "lwip", "main", "mbedtls", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/home/jona/esp-idf/components/app_trace", "/home/jona/esp-idf/components/app_update", "/home/jona/esp-idf/components/bootloader", "/home/jona/esp-idf/components/bootloader_support", "/home/jona/esp-idf/components/bt", "/home/jona/esp-idf/components/cmock", "/home/jona/esp-idf/components/console", "/home/jona/esp-idf/components/cxx", "/home/jona/esp-idf/components/driver", "/home/jona/esp-idf/components/efuse", "/home/jona/esp-idf/components/esp-tls", "/home/jona/esp-idf/components/esp_adc", "/home/jona/esp-idf/components/esp_app_format", "/home/jona/esp-idf/components/esp_blockdev", "/home/jona/esp-idf/components/esp_bootloader_format", "/home/jona/esp-idf/components/esp_coex", "/home/jona/esp-idf/components/esp_common", "/home/jona/esp-idf/components/esp_driver_ana_cmpr", "/home/jona/esp-idf/components/esp_driver_bitscrambler", "/home/jona/esp-idf/components/esp_driver_cam", "/home/jona/esp-idf/components/esp_driver_dac", "/home/jona/esp-idf/components/esp_driver_dma", "/home/jona/esp-idf/components/esp_driver_gpio", "/home/jona/esp-idf/components/esp_driver_gptimer", "/home/jona/esp-idf/components/esp_driver_i2c", "/home/jona/esp-idf/components/esp_driver_i2s", "/home/jona/esp-idf/components/esp_driver_i3c", "/home/jona/esp-idf/components/esp_driver_isp", "/home/jona/esp-idf/components/esp_driver_jpeg", "/home/jona/esp-idf/components/esp_driver_ledc", "/home/jona/esp-idf/components/esp_driver_mcpwm", "/home/jona/esp-idf/components/esp_driver_parlio", "/home/jona/esp-idf/components/esp_driver_pcnt", "/home/jona/esp-idf/components/esp_driver_ppa", "/home/jona/esp-idf/components/esp_driver_rmt", "/home/jona/esp-idf/components/esp_driver_sd_intf", "/home/jona/esp-idf/components/esp_driver_sdio", "/home/jona/esp-idf/components/esp_driver_sdm", "/home/jona/esp-idf/components/esp_driver_sdmmc", "/home/jona/esp-idf/components/esp_driver_sdspi", "/home/jona/esp-idf/components/esp_driver_spi", "/home/jona/esp-idf/components/esp_driver_touch_sens", "/home/jona/esp-idf/components/esp_driver_tsens", "/home/jona/esp-idf/components/esp_driver_twai", "/home/jona/esp-idf/components/esp_driver_uart", "/home/jona/esp-idf/components/esp_driver_usb_serial_jtag", "/home/jona/esp-idf/components/esp_eth", "/home/jona/esp-idf/components/esp_event", "/home/jona/esp-idf/components/esp_gdbstub", "/home/jona/esp-idf/components/esp_hal_ana_cmpr", "/home/jona/esp-idf/components/esp_hal_ana_conv", "/home/jona/esp-idf/components/esp_hal_cam", "/home/jona/esp-idf/components/esp_hal_clock", "/home/jona/esp-idf/components/esp_hal_dma", "/home/jona/esp-idf/components/esp_hal_emac", "/home/jona/esp-idf/components/esp_hal_gpio", "/home/jona/esp-idf/components/esp_hal_gpspi", "/home/jona/esp-idf/components/esp_hal_i2c", "/home/jona/esp-idf/components/esp_hal_i2s", "/home/jona/esp-idf/components/esp_hal_i3c", "/home/jona/esp-idf/components/esp_hal_ieee802154", "/home/jona/esp-idf/components/esp_hal_jpeg", "/home/jona/esp-idf/components/esp_hal_lcd", "/home/jona/esp-idf/components/esp_hal_ledc", "/home/jona/esp-idf/components/esp_hal_mcpwm", "/home/jona/esp-idf/components/esp_hal_mspi", "/home/jona/esp-idf/components/esp_hal_parlio", "/home/jona/esp-idf/components/esp_hal_pcnt", "/home/jona/esp-idf/components/esp_hal_pmu", "/home/jona/esp-idf/components/esp_hal_ppa", "/home/jona/esp-idf/components/esp_hal_rmt", "/home/jona/esp-idf/components/esp_hal_rtc_timer", "/home/jona/esp-idf/components/esp_hal_sd", "/home/jona/esp-idf/components/esp_hal_security", "/home/jona/esp-idf/components/esp_hal_timg", "/home/jona/esp-idf/components/esp_hal_touch_sens", "/home/jona/esp-idf/components/esp_hal_twai", "/home/jona/esp-idf/components/esp_hal_uart", "/home/jona/esp-idf/components/esp_hal_usb", "/home/jona/esp-idf/components/esp_hal_wdt", "/home/jona/esp-idf/components/esp_hid", "/home/jona/esp-idf/components/esp_http_client", "/home/jona/esp-idf/components/esp_http_server", "/home/jona/esp-idf/components/esp_https_ota", "/home/jona/esp-idf/components/esp_https_server", "/home/jona/esp-idf/components/esp_hw_support", "/home/jona/esp-idf/components/esp_lcd", "/home/jona/esp-idf/components/esp_libc", "/home/jona/esp-idf/components/esp_local_ctrl", "/home/jona/esp-idf/components/esp_mm", "/home/jona/esp-idf/components/esp_netif", "/home/jona/esp-idf/components/esp_netif_stack", "/home/jona/esp-idf/components/esp_partition", "/home/jona/esp-idf/components/esp_phy", "/home/jona/esp-idf/components/esp_pm", "/home/jona/esp-idf/components/esp_psram", "/home/jona/esp-idf/components/esp_ringbuf", "/home/jona/esp-idf/components/esp_rom", "/home/jona/esp-idf/components/esp_security", "/home/jona/esp-idf/components/esp_stdio", "/home/jona/esp-idf/components/esp_system", "/home/jona/esp-idf/components/esp_timer", "/home/jona/esp-idf/components/esp_trace", "/home/jona/esp-idf/components/esp_usb_cdc_rom_console", "/home/jona/esp-idf/components/esp_wifi", "/home/jona/esp-idf/components/espcoredump", "/home/jona/esp-idf/components/esptool_py", "/home/jona/esp-idf/components/fatfs", "/home/jona/esp-idf/components/freertos", "/home/jona/esp-idf/components/hal", "/home/jona/esp-idf/components/heap", "/home/jona/esp-idf/components/http_parser", "/home/jona/esp-idf/components/ieee802154", "/home/jona/esp-idf/components/log", "/home/jona/esp-idf/components/lwip", "/home/jona/esp-idf/Projects/I2C/main", "/home/jona/esp-idf/components/mbedtls", "/home/jona/esp-idf/components/nvs_flash", "/home/jona/esp-idf/components/nvs_sec_provider", "/home/jona/esp-idf/components/openthread", "/home/jona/esp-idf/components/partition_table", "/home/jona/esp-idf/components/perfmon", "/home/jona/esp-idf/components/protobuf-c", "/home/jona/esp-idf/components/protocomm", "/home/jona/esp-idf/components/pthread", "/home/jona/esp-idf/components/rt", "/home/jona/esp-idf/components/sdmmc", "/home/jona/esp-idf/components/soc", "/home/jona/esp-idf/components/spi_flash", "/home/jona/esp-idf/components/spiffs", "/home/jona/esp-idf/components/tcp_transport", "/home/jona/esp-idf/components/ulp", "/home/jona/esp-idf/components/unity", "/home/jona/esp-idf/components/vfs", "/home/jona/esp-idf/components/wear_levelling", "/home/jona/esp-idf/components/wpa_supplicant", "/home/jona/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_dma", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_i3c", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sd_intf", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ana_cmpr", "esp_hal_ana_conv", "esp_hal_cam", "esp_hal_clock", "esp_hal_dma", "esp_hal_emac", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2c", "esp_hal_i2s", "esp_hal_i3c", "esp_hal_ieee802154", "esp_hal_jpeg", "esp_hal_lcd", "esp_hal_ledc", "esp_hal_mcpwm", "esp_hal_mspi", "esp_hal_parlio", "esp_hal_pcnt", "esp_hal_pmu", "esp_hal_ppa", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_sd", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_twai", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_libc", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_trace", "esp_usb_cdc_rom_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "ieee802154", "log", "lwip", "main", "mbedtls", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "/home/jona/esp-idf/components/app_trace", "/home/jona/esp-idf/components/app_update", "/home/jona/esp-idf/components/bootloader", "/home/jona/esp-idf/components/bootloader_support", "/home/jona/esp-idf/components/bt", "/home/jona/esp-idf/components/cmock", "/home/jona/esp-idf/components/console", "/home/jona/esp-idf/components/cxx", "/home/jona/esp-idf/components/driver", "/home/jona/esp-idf/components/efuse", "/home/jona/esp-idf/components/esp-tls", "/home/jona/esp-idf/components/esp_adc", "/home/jona/esp-idf/components/esp_app_format", "/home/jona/esp-idf/components/esp_blockdev", "/home/jona/esp-idf/components/esp_bootloader_format", "/home/jona/esp-idf/components/esp_coex", "/home/jona/esp-idf/components/esp_common", "/home/jona/esp-idf/components/esp_driver_ana_cmpr", "/home/jona/esp-idf/components/esp_driver_bitscrambler", "/home/jona/esp-idf/components/esp_driver_cam", "/home/jona/esp-idf/components/esp_driver_dac", "/home/jona/esp-idf/components/esp_driver_dma", "/home/jona/esp-idf/components/esp_driver_gpio", "/home/jona/esp-idf/components/esp_driver_gptimer", "/home/jona/esp-idf/components/esp_driver_i2c", "/home/jona/esp-idf/components/esp_driver_i2s", "/home/jona/esp-idf/components/esp_driver_i3c", "/home/jona/esp-idf/components/esp_driver_isp", "/home/jona/esp-idf/components/esp_driver_jpeg", "/home/jona/esp-idf/components/esp_driver_ledc", "/home/jona/esp-idf/components/esp_driver_mcpwm", "/home/jona/esp-idf/components/esp_driver_parlio", "/home/jona/esp-idf/components/esp_driver_pcnt", "/home/jona/esp-idf/components/esp_driver_ppa", "/home/jona/esp-idf/components/esp_driver_rmt", "/home/jona/esp-idf/components/esp_driver_sd_intf", "/home/jona/esp-idf/components/esp_driver_sdio", "/home/jona/esp-idf/components/esp_driver_sdm", "/home/jona/esp-idf/components/esp_driver_sdmmc", "/home/jona/esp-idf/components/esp_driver_sdspi", "/home/jona/esp-idf/components/esp_driver_spi", "/home/jona/esp-idf/components/esp_driver_touch_sens", "/home/jona/esp-idf/components/esp_driver_tsens", "/home/jona/esp-idf/components/esp_driver_twai", "/home/jona/esp-idf/components/esp_driver_uart", "/home/jona/esp-idf/components/esp_driver_usb_serial_jtag", "/home/jona/esp-idf/components/esp_eth", "/home/jona/esp-idf/components/esp_event", "/home/jona/esp-idf/components/esp_gdbstub", "/home/jona/esp-idf/components/esp_hal_ana_cmpr", "/home/jona/esp-idf/components/esp_hal_ana_conv", "/home/jona/esp-idf/components/esp_hal_cam", "/home/jona/esp-idf/components/esp_hal_clock", "/home/jona/esp-idf/components/esp_hal_dma", "/home/jona/esp-idf/components/esp_hal_emac", "/home/jona/esp-idf/components/esp_hal_gpio", "/home/jona/esp-idf/components/esp_hal_gpspi", "/home/jona/esp-idf/components/esp_hal_i2c", "/home/jona/esp-idf/components/esp_hal_i2s", "/home/jona/esp-idf/components/esp_hal_i3c", "/home/jona/esp-idf/components/esp_hal_ieee802154", "/home/jona/esp-idf/components/esp_hal_jpeg", "/home/jona/esp-idf/components/esp_hal_lcd", "/home/jona/esp-idf/components/esp_hal_ledc", "/home/jona/esp-idf/components/esp_hal_mcpwm", "/home/jona/esp-idf/components/esp_hal_mspi", "/home/jona/esp-idf/components/esp_hal_parlio", "/home/jona/esp-idf/components/esp_hal_pcnt", "/home/jona/esp-idf/components/esp_hal_pmu", "/home/jona/esp-idf/components/esp_hal_ppa", "/home/jona/esp-idf/components/esp_hal_rmt", "/home/jona/esp-idf/components/esp_hal_rtc_timer", "/home/jona/esp-idf/components/esp_hal_sd", "/home/jona/esp-idf/components/esp_hal_security", "/home/jona/esp-idf/components/esp_hal_systimer", "/home/jona/esp-idf/components/esp_hal_timg", "/home/jona/esp-idf/components/esp_hal_touch_sens", "/home/jona/esp-idf/components/esp_hal_twai", "/home/jona/esp-idf/components/esp_hal_uart", "/home/jona/esp-idf/components/esp_hal_usb", "/home/jona/esp-idf/components/esp_hal_wdt", "/home/jona/esp-idf/components/esp_hid", "/home/jona/esp-idf/components/esp_http_client", "/home/jona/esp-idf/components/esp_http_server", "/home/jona/esp-idf/components/esp_https_ota", "/home/jona/esp-idf/components/esp_https_server", "/home/jona/esp-idf/components/esp_hw_support", "/home/jona/esp-idf/components/esp_lcd", "/home/jona/esp-idf/components/esp_libc", "/home/jona/esp-idf/components/esp_local_ctrl", "/home/jona/esp-idf/components/esp_mm", "/home/jona/esp-idf/components/esp_netif", "/home/jona/esp-idf/components/esp_netif_stack", "/home/jona/esp-idf/components/esp_partition", "/home/jona/esp-idf/components/esp_phy", "/home/jona/esp-idf/components/esp_pm", "/home/jona/esp-idf/components/esp_psram", "/home/jona/esp-idf/components/esp_ringbuf", "/home/jona/esp-idf/components/esp_rom", "/home/jona/esp-idf/components/esp_security", "/home/jona/esp-idf/components/esp_stdio", "/home/jona/esp-idf/components/esp_system", "/home/jona/esp-idf/components/esp_timer", "/home/jona/esp-idf/components/esp_trace", "/home/jona/esp-idf/components/esp_usb_cdc_rom_console", "/home/jona/esp-idf/components/esp_wifi", "/home/jona/esp-idf/components/espcoredump", "/home/jona/esp-idf/components/esptool_py", "/home/jona/esp-idf/components/fatfs", "/home/jona/esp-idf/components/freertos", "/home/jona/esp-idf/components/hal", "/home/jona/esp-idf/components/heap", "/home/jona/esp-idf/components/http_parser", "/home/jona/esp-idf/components/ieee802154", "/home/jona/esp-idf/components/log", "/home/jona/esp-idf/components/lwip", "/home/jona/esp-idf/Projects/I2C/main", "/home/jona/esp-idf/components/mbedtls", "/home/jona/esp-idf/components/nvs_flash", "/home/jona/esp-idf/components/nvs_sec_provider", "/home/jona/esp-idf/components/openthread", "/home/jona/esp-idf/components/partition_table", "/home/jona/esp-idf/components/perfmon", "/home/jona/esp-idf/components/protobuf-c", "/home/jona/esp-idf/components/protocomm", "/home/jona/esp-idf/components/pthread", "/home/jona/esp-idf/components/rt", "/home/jona/esp-idf/components/sdmmc", "/home/jona/esp-idf/components/soc", "/home/jona/esp-idf/components/spi_flash", "/home/jona/esp-idf/components/spiffs", "/home/jona/esp-idf/components/tcp_transport", "/home/jona/esp-idf/components/ulp", "/home/jona/esp-idf/components/unity", "/home/jona/esp-idf/components/vfs", "/home/jona/esp-idf/components/wear_levelling", "/home/jona/esp-idf/components/wpa_supplicant", "/home/jona/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -351,7 +351,7 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_driver_dma",
             "reqs": [ "esp_hal_dma" ],
-            "priv_reqs": [ "esp_mm" ],
+            "priv_reqs": [ "esp_mm", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
@@ -531,7 +531,7 @@
             "type": "CONFIG_ONLY",
             "lib": "__idf_esp_driver_ppa",
             "reqs": [ "esp_hal_ppa" ],
-            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma" ],
+            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "",
@@ -1138,6 +1138,21 @@
             "sources": [ "/home/jona/esp-idf/components/esp_hal_security/mpi_hal.c", "/home/jona/esp-idf/components/esp_hal_security/sha_hal.c", "/home/jona/esp-idf/components/esp_hal_security/aes_hal.c", "/home/jona/esp-idf/components/esp_hal_security/mpu_hal.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
+        "esp_hal_systimer": {
+            "alias": "idf::esp_hal_systimer",
+            "target": "___idf_esp_hal_systimer",
+            "prefix": "idf",
+            "dir": "/home/jona/esp-idf/components/esp_hal_systimer",
+            "type": "CONFIG_ONLY",
+            "lib": "__idf_esp_hal_systimer",
+            "reqs": [ "soc", "hal", "esp_rom" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "include" ]
+        },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
             "target": "___idf_esp_hal_timg",
@@ -1280,8 +1295,8 @@
             "dir": "/home/jona/esp-idf/components/esp_https_ota",
             "type": "LIBRARY",
             "lib": "__idf_esp_https_ota",
-            "reqs": [ "esp_http_client", "bootloader_support", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
-            "priv_reqs": [ "log", "app_update" ],
+            "reqs": [ "esp_http_client", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
+            "priv_reqs": [ "log", "app_update", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_https_ota/libesp_https_ota.a",
@@ -1311,11 +1326,11 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "esp_hal_gpio", "esp_hal_usb", "esp_hal_pmu" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_hal_systimer", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_hw_support/libesp_hw_support.a",
-            "sources": [ "/home/jona/esp-idf/components/esp_hw_support/cpu.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/home/jona/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/home/jona/esp-idf/components/esp_hw_support/esp_clk.c", "/home/jona/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/jona/esp-idf/components/esp_hw_support/hw_random.c", "/home/jona/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/jona/esp-idf/components/esp_hw_support/mac_addr.c", "/home/jona/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/revision.c", "/home/jona/esp-idf/components/esp_hw_support/rtc_module.c", "/home/jona/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/jona/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/home/jona/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/jona/esp-idf/components/esp_hw_support/clk_utils.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/jona/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_uart.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_console.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_event.c", "/home/jona/esp-idf/components/esp_hw_support/rtc_wdt.c", "/home/jona/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/mspi_timing_tuning.c", "/home/jona/esp-idf/components/esp_hw_support/mspi/mspi_intr/mspi_intr.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/jona/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/jona/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/lowpower" ],
+            "sources": [ "/home/jona/esp-idf/components/esp_hw_support/cpu.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/home/jona/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/home/jona/esp-idf/components/esp_hw_support/esp_clk.c", "/home/jona/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/jona/esp-idf/components/esp_hw_support/hw_random.c", "/home/jona/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/jona/esp-idf/components/esp_hw_support/mac_addr.c", "/home/jona/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/revision.c", "/home/jona/esp-idf/components/esp_hw_support/rtc_module.c", "/home/jona/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/jona/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/home/jona/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/jona/esp-idf/components/esp_hw_support/heap_align_hw.c", "/home/jona/esp-idf/components/esp_hw_support/clk_utils.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/jona/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_uart.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_console.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_event.c", "/home/jona/esp-idf/components/esp_hw_support/rtc_wdt.c", "/home/jona/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/mspi_timing_tuning.c", "/home/jona/esp-idf/components/esp_hw_support/mspi/mspi_intr/mspi_intr.c", "/home/jona/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/jona/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/jona/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/home/jona/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/home/jona/esp-idf/components/esp_hw_support/lowpower" ],
             "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include" ]
         },
         "esp_lcd": {
@@ -1375,7 +1390,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_mm/libesp_mm.a",
-            "sources": [ "/home/jona/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/jona/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/home/jona/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/jona/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/jona/esp-idf/components/esp_mm/cache_esp32.c", "/home/jona/esp-idf/components/esp_mm/heap_align_hw.c" ],
+            "sources": [ "/home/jona/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/jona/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/home/jona/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/jona/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/jona/esp-idf/components/esp_mm/cache_esp32.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_netif": {
@@ -1416,7 +1431,7 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_partition",
             "reqs": [ "esp_blockdev" ],
-            "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
+            "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "efuse", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_partition/libesp_partition.a",
@@ -1466,7 +1481,7 @@
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_psram/libesp_psram.a",
             "sources": [ "/home/jona/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c" ],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "include", "device/include" ]
         },
         "esp_ringbuf": {
             "alias": "idf::esp_ringbuf",
@@ -1551,7 +1566,7 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_timer",
             "reqs": [],
-            "priv_reqs": [ "esp_hal_timg" ],
+            "priv_reqs": [ "esp_hal_timg", "esp_hal_systimer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_timer/libesp_timer.a",
@@ -1566,7 +1581,7 @@
             "type": "CONFIG_ONLY",
             "lib": "__idf_esp_trace",
             "reqs": [ "app_trace" ],
-            "priv_reqs": [ "esp_driver_gptimer" ],
+            "priv_reqs": [ "esp_driver_gptimer", "esp_hal_usb", "esp_driver_usb_serial_jtag", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "",
@@ -1600,7 +1615,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/esp_wifi/libesp_wifi.a",
-            "sources": [ "/home/jona/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/jona/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/jona/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/jona/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/home/jona/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/jona/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
+            "sources": [ "/home/jona/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/jona/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/jona/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/jona/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/jona/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/home/jona/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/jona/esp-idf/components/esp_wifi/src/smartconfig_ack.c", "/home/jona/esp-idf/components/esp_wifi/remote/esp_wifi_remote_weak.c", "/home/jona/esp-idf/components/esp_wifi/remote/esp_eap_client_remote_weak.c", "/home/jona/esp-idf/components/esp_wifi/remote/esp_wifi_remote_net2.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
         "espcoredump": {
@@ -1611,7 +1626,7 @@
             "type": "CONFIG_ONLY",
             "lib": "__idf_espcoredump",
             "reqs": [],
-            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security" ],
+            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "",
@@ -1656,7 +1671,7 @@
             "type": "LIBRARY",
             "lib": "__idf_freertos",
             "reqs": [],
-            "priv_reqs": [],
+            "priv_reqs": [ "esp_hal_systimer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jona/esp-idf/Projects/I2C/build/esp-idf/freertos/libfreertos.a",
@@ -2366,7 +2381,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_dma",
             "reqs": [ "esp_hal_dma" ],
-            "priv_reqs": [ "esp_mm" ],
+            "priv_reqs": [ "esp_mm", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -2522,7 +2537,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_ppa",
             "reqs": [ "esp_hal_ppa" ],
-            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma" ],
+            "priv_reqs": [ "esp_mm", "esp_pm", "esp_driver_dma", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -3047,6 +3062,19 @@
             "managed_priv_reqs": [],
             "include_dirs": [ "esp32/include", "include" ]
         },
+        "esp_hal_systimer": {
+            "alias": "idf::esp_hal_systimer",
+            "target": "___idf_esp_hal_systimer",
+            "prefix": "idf",
+            "dir": "/home/jona/esp-idf/components/esp_hal_systimer",
+            "source": "idf_components",
+            "lib": "__idf_esp_hal_systimer",
+            "reqs": [ "soc", "hal", "esp_rom" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
             "target": "___idf_esp_hal_timg",
@@ -3171,8 +3199,8 @@
             "dir": "/home/jona/esp-idf/components/esp_https_ota",
             "source": "idf_components",
             "lib": "__idf_esp_https_ota",
-            "reqs": [ "esp_http_client", "bootloader_support", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
-            "priv_reqs": [ "log", "app_update" ],
+            "reqs": [ "esp_http_client", "esp_bootloader_format", "esp_app_format", "esp_event", "esp_partition" ],
+            "priv_reqs": [ "log", "app_update", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -3198,7 +3226,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "esp_hal_gpio", "esp_hal_usb", "esp_hal_pmu" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_hal_systimer", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include" ]
@@ -3289,7 +3317,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_partition",
             "reqs": [ "esp_blockdev" ],
-            "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
+            "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "efuse", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -3331,7 +3359,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "include", "device/include" ]
         },
         "esp_ringbuf": {
             "alias": "idf::esp_ringbuf",
@@ -3419,7 +3447,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_timer",
             "reqs": [],
-            "priv_reqs": [ "esp_hal_timg" ],
+            "priv_reqs": [ "esp_hal_timg", "esp_hal_systimer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -3432,7 +3460,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_trace",
             "reqs": [ "app_trace" ],
-            "priv_reqs": [ "esp_driver_gptimer" ],
+            "priv_reqs": [ "esp_driver_gptimer", "esp_hal_usb", "esp_driver_usb_serial_jtag", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -3471,7 +3499,7 @@
             "source": "idf_components",
             "lib": "__idf_espcoredump",
             "reqs": [],
-            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security" ],
+            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "esp_app_format", "esp_hal_security", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": []
@@ -3510,7 +3538,7 @@
             "source": "idf_components",
             "lib": "__idf_freertos",
             "reqs": [],
-            "priv_reqs": [],
+            "priv_reqs": [ "esp_hal_systimer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]

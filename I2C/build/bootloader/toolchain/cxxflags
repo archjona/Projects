@@ -1,4 +1,4 @@
--specs=picolibc.specs
+"-specs=/home/jona/esp-idf/Projects/I2C/build/bootloader/specs/picolibc.specs"
 -Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy
