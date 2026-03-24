@@ -16,7 +16,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
-#include "freertos/task.h"  // WICHTIG: Für vTaskDelay
+#include "freertos/task.h"  // Für vTaskDelay
 #include "esp_log.h"        // Für Debug-Ausgaben (optional, aber hilfreich)
 
 #define CS_PIN 15
@@ -87,6 +87,7 @@ static uint32_t bme280_read_raw_temp(void) {
     // nur die oberen 4 bits von 0xFC werden ankommen laut Datenblatt
 
     return ((uint32_t)msb << 12) | ((uint32_t)lsb << 4) | (xlsb >> 4); // FIX: sicheres casten vor dem shiften
+    // cast am Ende wäre wegen integer Promotion aber auch möglich
 }
 
 void app_main(void)
