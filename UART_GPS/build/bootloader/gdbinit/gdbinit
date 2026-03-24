@@ -1,0 +1,2 @@
+source /home/jona/esp-idf/Projects/UART_GPS/build/bootloader/gdbinit/symbols
+source /home/jona/esp-idf/Projects/UART_GPS/build/bootloader/gdbinit/connect
