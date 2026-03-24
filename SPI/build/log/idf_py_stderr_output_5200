@@ -1,4 +1,4 @@
-Command: cmake -G Ninja -B /home/jona/esp-idf/Projects/SPI/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/jona/.espressif/python_env/idf6.1_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/jona/esp-idf/Projects/SPI
+Command: cmake -G Ninja -B /home/jona/esp-idf/Projects/SPI/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/jona/.espressif/python_env/idf6.1_py3.13_env/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False /home/jona/esp-idf/Projects/SPI
 Configuration Report               
  ───────────────────────────────── 
    Parser Version: 1               
