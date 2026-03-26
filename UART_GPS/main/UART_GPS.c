@@ -18,6 +18,44 @@ static const int intr_alloc_flags = 0; //erstmal keine interrupts
 #define TX_PIN 32
 #define RX_PIN 33
 
+// Funktion zum parsen der Werte
+
+void parse_gpgga(char *sentence) {
+    // Prüfen ob es ein GPGGA Satz ist
+    if (strncmp(sentence, "$GPGGA", 6) != 0) return;
+
+    char time[10], lat[12], lat_dir[2], lon[12], lon_dir[2];
+    int fix, satellites;
+    float hdop, altitude;
+
+    // [^,] heißt Lesen bis ,
+    // Fix heißt gültige Position
+    // hdop heißt wie genau die erfassung ist
+    // dir index heißt himmelsrichtung
+    int parsed = sscanf(sentence, "$GPGGA,%9[^,],%11[^,],%1[^,],%11[^,],%1[^,],%d,%d,%f,%f",
+                        time, lat, lat_dir, lon, lon_dir, &fix, &satellites, &hdop, &altitude);
+
+    if (parsed < 6) {
+        printf("Kein Fix\n");
+        return;
+    }
+
+    printf("Zeit: %s\n", time);
+    printf("Fix: %d\n", fix);
+    printf("Satelliten: %d\n", satellites);
+
+    if (fix > 0) {
+        printf("Lat: %s %s\n", lat, lat_dir);
+        printf("Lon: %s %s\n", lon, lon_dir);
+        printf("Höhe: %.1f m\n", altitude);
+    }
+}
+
+
+
+
+
+
 void app_main(void)
 {
     // Treiber installieren
@@ -32,7 +70,8 @@ void app_main(void)
     .data_bits = UART_DATA_8_BITS,
     .parity = UART_PARITY_DISABLE,
     .stop_bits = UART_STOP_BITS_1,
-    .flow_ctrl = UART_HW_FLOWCTRL_DISABLE // kein extra Clear to send und Request to send nötig hier
+    .flow_ctrl = UART_HW_FLOWCTRL_DISABLE, // kein extra Clear to send und Request to send nötig hier
+    .source_clk = UART_SCLK_DEFAULT
     };
 
     ret = uart_param_config(port, &config);
@@ -48,12 +87,24 @@ void app_main(void)
      }
 
     uint8_t buffer[256]; // NMEA Protokol, 256 reichen also
-    uint32_t data_length = sizeof(buffer);
+  //  uint32_t data_length = sizeof(buffer);
 
- while(1) {
-        int len = uart_read_bytes(port, &buffer, data_length, pdMS_TO_TICKS(1000));
-        printf("DATA: %d \n", len);
+while (1) {
+    size_t available = 0;
+    uart_get_buffered_data_len(port, &available);
+
+    if (available > 0) {
+        int len = uart_read_bytes(port, buffer, available, pdMS_TO_TICKS(1000));
+        buffer[len] = '\0';
+
+        char *line = strtok((char *)buffer, "\r\n"); //ersetzt \r\n mit \0
+        while (line != NULL) {
+            parse_gpgga(line);
+            line = strtok(NULL, "\r\n"); // macht weiter von der gemerkten position bis nichts mehr da ist
+        }
     }
 
+    vTaskDelay(pdMS_TO_TICKS(1100));
+}
 
 }
